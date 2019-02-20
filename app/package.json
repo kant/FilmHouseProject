@@ -4,6 +4,7 @@
   "description": "Small uni project",
   "main": "main.js",
   "dependencies": {
+    "electron": "^4.0.5",
     "store": "^2.0.12"
   },
   "devDependencies": {},
