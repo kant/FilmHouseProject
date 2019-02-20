@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <meta charset="UTF-8">    
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -12,10 +11,11 @@
     and Electron <script>document.write(process.versions.electron)</script>.
 
     <button id="FetchButton">Fetch Data</button>
+    <input id="DataInput" type="text" placeholder="input"></input>
 
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
+      require('../front-end-js/renderer.js')
     </script>
   </body>
 </html>
