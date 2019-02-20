@@ -3,7 +3,7 @@ const {app, BrowserWindow} = require('electron')
 const { ipcMain } = require('electron');
 const path = require('path')
 global.appRoot = path.resolve(__dirname);
-global.viewsDir = path.resolve(appRoot + '/views')
+global.viewsDir = path.resolve(appRoot + '/public/views')
 console.log(viewsDir)
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -66,10 +66,10 @@ ipcMain.on('update-from-mainWindow', (event, data) => {
           nodeIntegration: true
         }
       })
-      displayWindow.loadFile('./Views/second.html')
+      displayWindow.loadFile(viewsDir + '/second.html')
       displayWindow.on('close', () => {
         displayWindow = null
-      })    
+      })
     }
     displayWindow.webContents.send('update-from-mainWindow', data)
 });
