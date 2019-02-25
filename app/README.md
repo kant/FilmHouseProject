@@ -2,8 +2,8 @@
 
 ## Folders logic
 
-The **app/public** folder is made to hold all the public ressources accesisble by our client, such as fonrt-end JavaScript, html, css etc...
-The **app/source** folder is made to hold all the back-end logic part, such as main.js the start point and all the module we might create
+The **app/public** folder is made to hold all the public ressources accesisble by our client, such as fonrt-end JavaScript, html, css etc...  
+The **app/source** folder is made to hold all the back-end logic part, such as main.js the start point and all the module we might create  
 The **app/config** folder is made to hold the configuration files
 
 ### To Use
