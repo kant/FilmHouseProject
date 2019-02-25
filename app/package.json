@@ -2,9 +2,10 @@
   "name": "film_house_project",
   "version": "1.0.0",
   "description": "Small uni project",
-  "main": "main.js",
+  "main": "source/main.js",
   "dependencies": {
     "electron": "^4.0.5",
+    "request": "^2.88.0",
     "store": "^2.0.12"
   },
   "devDependencies": {},

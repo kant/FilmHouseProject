@@ -1,10 +1,17 @@
-// Modules to control application life and create native browser window
+//STATIC VARIABLES AND MODULES
 const {app, BrowserWindow} = require('electron')
 const { ipcMain } = require('electron');
 const path = require('path')
-global.appRoot = path.resolve(__dirname);
-global.viewsDir = path.resolve(appRoot + '/public/views')
-console.log(viewsDir)
+
+const ApiManager = require('./ApiManager');
+
+global.__basedir = path.resolve(__dirname + '/..');
+global.viewsDir = path.resolve(__basedir + '/public/views')
+console.log(__basedir)
+
+//DINAMIC VARIABLES
+var config = {};
+const apiManager = new ApiManager(__basedir + '/config/api.json')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -28,9 +35,6 @@ function createWindow () {
   })
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
 
 // Quit when all windows are closed.
@@ -50,26 +54,38 @@ app.on('activate', function () {
   }
 })
 
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
+//MAIN
 
-// Attach event listener to event that requests to update something in the second window
-// from the first window
+apiManager.RequestApiByName("booking").then( _ => {
+  console.log(_)
+})
+
+function CreateNewWindow(name, html_path) {
+  obj = new BrowserWindow({
+    width: 800,
+    height: 600,
+    title: name,
+    show: false,
+    webPreferences: {
+      nodeIntegration: true
+    }
+
+  })
+  obj.loadFile(html_path)
+  return obj
+}
+
+
 ipcMain.on('update-from-mainWindow', (event, data) => {
-    if(displayWindow === null) {
-      displayWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
-        title: "Display window",
-        parent : mainWindow,
-        webPreferences: {
-          nodeIntegration: true
-        }
-      })
-      displayWindow.loadFile(viewsDir + '/second.html')
+    if(displayWindow == null) {
+      displayWindow = CreateNewWindow("Display Windows", viewsDir + '/second.html')
       displayWindow.on('close', () => {
         displayWindow = null
       })
     }
-    displayWindow.webContents.send('update-from-mainWindow', data)
+    displayWindow.once('ready-to-show', () => {
+      displayWindow.show()
+      displayWindow.webContents.send('update-from-mainWindow', data)
+    })
+    displayWindow.webContents.send('update-from-mainWindow', data)    
 });
