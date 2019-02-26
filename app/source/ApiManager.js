@@ -19,8 +19,8 @@ class ApiManager {
     return new Promise((resolve, reject) => {
       request(uri, (error, response, body) => {
         if(error != null)
-          reject(error)
-        resolve(response)
+          reject(error)        
+        resolve(body)
       })
     })
 
@@ -33,8 +33,8 @@ class ApiManager {
           return this.RequestURI(api.api_list[i].uri + api.api_list[i].databse_name + api.api_list[i].layout + api.api_list[i].api_key)
           .catch(err => { throw err })
         }
-        throw new Error("There is no api with this name")
       }
+      reject("There is no api called " + name)
     })
     .catch(err => { throw err })
   }

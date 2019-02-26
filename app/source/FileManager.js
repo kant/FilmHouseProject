@@ -10,7 +10,7 @@ function ReadFilePromise(path, encoding) {
 }
 
 function WriteFile(path, data) {
-  fs.WriteFile(path, data, (err) => {
+  fs.appendFile(path, data, (err) => {
     if(err) throw err
   })
 }

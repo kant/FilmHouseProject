@@ -4,6 +4,7 @@ const { ipcMain } = require('electron');
 const path = require('path')
 
 const ApiManager = require('./ApiManager');
+const fileManager = require('./FileManager');
 
 global.__basedir = path.resolve(__dirname + '/..');
 global.viewsDir = path.resolve(__basedir + '/public/views')
@@ -56,9 +57,12 @@ app.on('activate', function () {
 
 //MAIN
 
-apiManager.RequestApiByName("booking").then( _ => {
-  console.log(_)
+apiManager.RequestApiByName("booking")
+.then(res => {
+  res = JSON.parse(res)
+  console.log(res.data[0])
 })
+.catch(err => { throw err })
 
 function CreateNewWindow(name, html_path) {
   obj = new BrowserWindow({
@@ -87,5 +91,5 @@ ipcMain.on('update-from-mainWindow', (event, data) => {
       displayWindow.show()
       displayWindow.webContents.send('update-from-mainWindow', data)
     })
-    displayWindow.webContents.send('update-from-mainWindow', data)    
+    displayWindow.webContents.send('update-from-mainWindow', data)
 });
