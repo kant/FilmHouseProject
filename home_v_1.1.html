@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 400px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  display: table;
+  font-size: 20px;
+  margin: 20px 2px;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.8;
+}
+.sidenav a:hover {
+  opacity: 1;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#Screen 1">Screen 1</a>
+  <a href="Slideshow.html">Screen 2</a>
+</div>
+
+
+   
+</body>
+    
+    <script language = "JavaScript">
+        <!--hide 
+        var password;
+        var pass1 = "FilmHouse2019";
+        password = prompt('Enter Password to View Page', '');
+        if (password == pass1)
+            alert('Correct password, click ok to enter.');
+        else
+            {
+                alert('Incorrect password');
+                window.location = "/home_v_1.1.html";
+            }
+        //-->
+      // You can also require other files to run in this process
+      require('../js/renderer.js')
+    </script>
+</html>
