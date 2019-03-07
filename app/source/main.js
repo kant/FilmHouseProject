@@ -6,13 +6,12 @@ const path = require('path')
 const ApiManager = require('./ApiManager');
 const fileManager = require('./FileManager');
 
-global.__basedir = path.resolve(__dirname + '/..');
-global.viewsDir = path.resolve(__basedir + '/public/views')
-console.log(__basedir)
+global.__dirbase = path.resolve(__dirname + '/..');
+global.viewsDir = path.resolve(__dirbase + '/public/views')
+console.log(__dirbase)
 
 //DINAMIC VARIABLES
-var config = {};
-const apiManager = new ApiManager(__basedir + '/config/api.json')
+const apiManager = new ApiManager(__dirbase + '/config/api.json')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -61,6 +60,7 @@ apiManager.RequestApiByName("booking")
 .then(res => {
   res = JSON.parse(res)
   console.log(res.data[0])
+  fileManager.WriteFile(__dirbase + '/config/result.json',JSON.stringify(res.data[0]))
 })
 .catch(err => { throw err })
 
@@ -73,7 +73,6 @@ function CreateNewWindow(name, html_path) {
     webPreferences: {
       nodeIntegration: true
     }
-
   })
   obj.loadFile(html_path)
   return obj

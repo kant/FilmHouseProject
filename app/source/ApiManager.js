@@ -1,25 +1,19 @@
 "use strict"
 
 const request = require('request');
-const fileManager = require('./fileManager')
-
+const configManager = require('./ConfigManager');
 
 class ApiManager {
-  constructor(path) {
-    this.apiConfig = this.SetApiVariables(path)
-  }
 
-  SetApiVariables(path) {
-    return fileManager.ReadFilePromise(path, 'utf-8')
-    .then(result => JSON.parse(result))
-    .catch(err => { throw err})
+  constructor(path) {
+    this.apiConfig = configManager.LoadJsonFile(path)
   }
 
   RequestURI(uri) {
     return new Promise((resolve, reject) => {
       request(uri, (error, response, body) => {
         if(error != null)
-          reject(error)        
+          reject(error)
         resolve(body)
       })
     })

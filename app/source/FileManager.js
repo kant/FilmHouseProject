@@ -10,9 +10,9 @@ function ReadFilePromise(path, encoding) {
 }
 
 function WriteFile(path, data) {
-  fs.appendFile(path, data, (err) => {
-    if(err) throw err
-  })
+  fs.writeFile(path, data, (err) => {
+      if(err) throw err
+  })  
 }
 
 module.exports.ReadFilePromise = ReadFilePromise;
