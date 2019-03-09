@@ -5,6 +5,7 @@ const path = require('path')
 
 const ApiManager = require('./ApiManager');
 const fileManager = require('./FileManager');
+const DataManager = require('./DataManager')
 
 global.__dirbase = path.resolve(__dirname + '/..');
 global.viewsDir = path.resolve(__dirbase + '/public/views')
@@ -12,6 +13,7 @@ console.log(__dirbase)
 
 //DINAMIC VARIABLES
 const apiManager = new ApiManager(__dirbase + '/config/api.json')
+const dataManager = new DataManager(__dirbase + '/config/api.json')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -56,11 +58,11 @@ app.on('activate', function () {
 
 //MAIN
 
-apiManager.RequestApiByName("booking")
+var api_data = apiManager.RequestApiByName("booking")
 .then(res => {
   res = JSON.parse(res)
-  console.log(res.data[0])
   fileManager.WriteFile(__dirbase + '/config/result.json',JSON.stringify(res.data[0]))
+  return dataManager.JsonCleaning("booking", res.data[0])
 })
 .catch(err => { throw err })
 
@@ -90,5 +92,9 @@ ipcMain.on('update-from-mainWindow', (event, data) => {
       displayWindow.show()
       displayWindow.webContents.send('update-from-mainWindow', data)
     })
-    displayWindow.webContents.send('update-from-mainWindow', data)
+    data = api_data.then(_ => {
+      console.log(_)
+      displayWindow.webContents.send('update-from-mainWindow', _)
+    }).catch(err => {throw err})
+
 });

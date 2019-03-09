@@ -2,6 +2,6 @@
 const { ipcRenderer } = require('electron');
 
 ipcRenderer.on('update-from-mainWindow', (event, data) => {
-  console.log(data.value)
-  document.getElementById('DisplayData').innerHTML = data.value
+  console.log(data.API_static_SeasonID)
+  document.getElementById('DisplayData').innerHTML = data.API_static_SeasonID
 })
