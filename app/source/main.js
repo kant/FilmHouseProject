@@ -19,6 +19,7 @@ const dataManager = new DataManager(__dirbase + '/config/api.json')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 let displayWindow = null
+let secondWindow = null
 
 function createWindow () {
   // Create the browser window.
@@ -30,7 +31,7 @@ function createWindow () {
       nodeIntegration: true
     }
   })
-  mainWindow.loadFile(viewsDir+ '/index.html')
+  mainWindow.loadFile(viewsDir+ '/home.html')
   mainWindow.on('closed', () => {
     mainWindow = null
     app.quit()
@@ -83,7 +84,7 @@ function CreateNewWindow(name, html_path) {
 
 ipcMain.on('update-from-mainWindow', (event, data) => {
     if(displayWindow == null) {
-      displayWindow = CreateNewWindow("Display Windows", viewsDir + '/second.html')
+      var displayWindow = CreateNewWindow("Display Windows", viewsDir + '/second.html')
       displayWindow.on('close', () => {
         displayWindow = null
       })
@@ -96,5 +97,21 @@ ipcMain.on('update-from-mainWindow', (event, data) => {
       console.log(_)
       displayWindow.webContents.send('update-from-mainWindow', _)
     }).catch(err => {throw err})
-
 });
+
+ipcMain.on('CreateScreen2', (event, data) => {
+  if(secondWindow == null) {
+    secondWindow = CreateNewWindow("Second Window", viewsDir + '/Slideshow.html')
+    secondWindow.on('close', () => {
+      secondWindow = null
+    })
+  }
+  secondWindow.once('ready-to-show', () => {
+    secondWindow.show()
+    secondWindow.webContents.send('update-from-mainWindow', data)
+  })
+  api_data.then(_ =>  {
+    console.log(_)
+    secondWindow.webContents.send('update-from-mainWindow', _)
+  }).catch(err => {throw err})
+})

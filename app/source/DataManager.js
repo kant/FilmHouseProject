@@ -11,7 +11,7 @@ class DataManager {
       var res = {}
       for(var i = 0; i < api.api_list.length; i++) {
         if(api.api_list[i].api_name == name){
-          if (api.api_list[i].data.fields.length == 0) reject("There is no data to tream on")
+          if (api.api_list[i].data.fields.length == 0) reject("There is no data to trim on")
           for (var field of api.api_list[i].data.fields) {
             if (data[field] != null) res[field] = data[field]
           }
