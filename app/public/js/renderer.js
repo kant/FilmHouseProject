@@ -1,13 +1,12 @@
 // Require ipcRenderer
 const { ipcRenderer } = require('electron');
 
-const store = require('store')
-
 let Payload = {
   'value' : 'alpha'
 }
 
-document.getElementById('CreateScreen2').addEventListener('click', () => {
+document.getElementById('CreateScreen2').addEventListener('click', () => { 
+	console.log("test")
   ipcRenderer.send('CreateScreen2')
 })
 
