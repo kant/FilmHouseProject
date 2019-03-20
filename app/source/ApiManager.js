@@ -5,8 +5,8 @@ const configManager = require('./ConfigManager');
 
 class ApiManager {
 
-  constructor(path) {
-    this.apiConfig = configManager.LoadJsonFile(path)
+  constructor(configManager) {
+    this.apiConfig = configManager.getApiConfig()
   }
 
   RequestURI(uri) {
@@ -28,7 +28,7 @@ class ApiManager {
           .catch(err => { throw err })
         }
       }
-      reject("There is no api called " + name)
+      return Promise.reject(new Error("There is no api called \"" + name + "\""))
     })
     .catch(err => { throw err })
   }

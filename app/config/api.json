@@ -9,6 +9,16 @@
       "data" : {
         "fields": ["API_static_SeasonID"]
       }
+    },
+    {
+      "api_name" : "slots",
+      "api_key" : "RFMkey=4H8SHEUYYIN38GQP092NGHE3784HSHE4LP185HJAL4KG",
+      "layout" :  "layout/Slots_API.json?RFMsF1=API_calc_FlagWebPublish&RFMsV1=1&RFMsF2=API_static_WebVenueID&RFMsV2=CON10000000R44754520&RFMmax=10&",
+      "databse_name" : "Filmhouse%20CMP/",
+      "uri" : "http://cmi.connect.solutions/RESTfm/",
+      "data" : {
+        "fields": ["API_static_ParentBookingID", "API_static_DateYMD", "API_static_Showtime"]
+      }
     }
   ]
 }

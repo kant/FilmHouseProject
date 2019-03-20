@@ -5,8 +5,7 @@
   "main": "source/main.js",
   "dependencies": {
     "electron": "^4.0.5",
-    "request": "^2.88.0",
-    "store": "^2.0.12"
+    "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {

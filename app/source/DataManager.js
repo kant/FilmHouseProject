@@ -1,9 +1,9 @@
-const configManager = require('./ConfigManager');
+const ConfigManager = require('./ConfigManager');
 
 class DataManager {
 
-  constructor(path) {
-    this.apiConfig = configManager.LoadJsonFile(path)
+  constructor(configManager) {    
+    this.apiConfig = configManager.getApiConfig()
   }
 
   JsonCleaning(name, data) {
@@ -11,14 +11,16 @@ class DataManager {
       var res = {}
       for(var i = 0; i < api.api_list.length; i++) {
         if(api.api_list[i].api_name == name){
-          if (api.api_list[i].data.fields.length == 0) reject("There is no data to trim on")
+          console.log(api.api_list[i].api_name)
+          if (api.api_list[i].data.fields.length == 0) return Promise.reject(new Error("There is no data to trim on"))
           for (var field of api.api_list[i].data.fields) {
+            console.log(field)
             if (data[field] != null) res[field] = data[field]
           }
           return res
         }
-        reject("There is no api called " + name)
       }
+      return Promise.reject(new Error("There is no api called \"" + name + "\""))
     })
     .catch(err => { throw err })
   }
