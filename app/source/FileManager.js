@@ -12,7 +12,7 @@ function ReadFilePromise(path, encoding) {
 function WriteFile(path, data) {
   fs.writeFile(path, data, (err) => {
       if(err) throw err
-  })  
+  })
 }
 
 module.exports.ReadFilePromise = ReadFilePromise;

@@ -10,7 +10,6 @@ const ConfigManager = require('./ConfigManager');
 
 global.__dirbase = path.resolve(__dirname + '/..');
 global.viewsDir = path.resolve(__dirbase + '/public/views')
-console.log(__dirbase)
 
 //DINAMIC VARIABLES
 const configManager = new ConfigManager(__dirbase + '/config/api.json','utf-8')
@@ -19,28 +18,18 @@ const dataManager = new DataManager(configManager)
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
-let displayWindow = null
+let mainWindow = null
 let secondWindow = null
+let firstWindow = null
 
-function createWindow () {
-  // Create the browser window.
-  mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    title: "Main window",
-    webPreferences: {
-      nodeIntegration: true
-    }
-  })
-  mainWindow.loadFile(viewsDir+ '/home.html')
+app.on('ready', () => {
+  mainWindow = CreateWindow('Main window', viewsDir+ '/home.html')
   mainWindow.on('closed', () => {
     mainWindow = null
     app.quit()
   })
-}
-
-app.on('ready', createWindow)
+  mainWindow.show()
+})
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
@@ -59,8 +48,7 @@ app.on('activate', function () {
   }
 })
 
-//MAIN
-function CreateNewWindow(name, html_path) {
+function CreateWindow(name, html_path) {
   obj = new BrowserWindow({
     width: 900,
     height: 700,
@@ -74,31 +62,44 @@ function CreateNewWindow(name, html_path) {
   return obj
 }
 
-var api_data = apiManager.RequestApiByName("slots")
-.then(res => {
-  res = JSON.parse(res)
-  console.log(res.data[0])
-  fileManager.WriteFile(__dirbase + '/config/result.json',JSON.stringify(res.data[0]))
-  return dataManager.JsonCleaning("slots", res.data[0])
+//MAIN
+var api_data = []
+apiManager.RequestApi("slots")
+.then(data => {
+  data = JSON.parse(data)
+  data = dataManager.JsonCleaning("slots", data.data)
+  return data
 })
+.then(data => {
+  return Promise.all(data.map(e => {
+    apiManager.RequestApiById("booking", e.API_static_ParentBookingID)
+    .then(JSON.parse)
+    .then(json => dataManager.JsonCleaning("booking", json.data))
+    .then(info => info[0])
+    .then(info => ({data: e, info}))
+    .then(data => sendDataToview(data, secondWindow))
+  }))
 .catch(err => { throw err })
+})
 
-ipcMain.on('CreateScreen2', (event, data) => {
+ipcMain.on('UpdateScreen2', (event, data) => {
   if(secondWindow == null) {
-    secondWindow = CreateNewWindow("Second Window", viewsDir + '/Slideshow.html')
+    secondWindow = CreateWindow("Second Window", viewsDir + '/slideShow.html')
+
     secondWindow.on('close', () => {
       secondWindow = null
     })
+    secondWindow.once('ready-to-show', () => {
+      secondWindow.show()
+      sendDataToview(null, secondWindow)
+    })
   }
-  secondWindow.once('ready-to-show', () => {
-    secondWindow.show()
-    api_data.then(_ =>  {
-      console.log(_)
-      secondWindow.webContents.send('update-from-mainWindow', _)
-    }).catch(err => {throw err})
-  })
-  api_data.then(_ =>  {
-    console.log(_)
-    secondWindow.webContents.send('update-from-mainWindow', _)
-  }).catch(err => {throw err})
+  sendDataToview(null, secondWindow)
 })
+
+function sendDataToview(data, view) {
+  console.log(data)
+  if (data != null) api_data.push(data)
+  if (view != null) view.webContents.send('update-from-mainWindow', api_data)
+  // if (secondWindow != null) secondWindow.webContents.send('update-from-mainWindow', api_data)
+}
