@@ -70,10 +70,18 @@
   height: 100%;
   z-index: 120;
 }
-.text-wrapper blockquote {
+.text-wrapper h1 {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 32px;
+  line-height: 1.2;
+}
+
+.text-wrapper span {
+  display: block;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
   line-height: 1.2;
 }
 
@@ -128,12 +136,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
