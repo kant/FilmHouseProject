@@ -21,5 +21,12 @@ function showSlides() {
 }
 
 ipcRenderer.on('update-from-mainWindow', (event, data) => {
+  var titles = document.getElementsByClassName("title")
   console.log(data)
+  for(var i = 0; i < data.length; i++) {
+    if(i < titles.length) {
+      console.log(titles[i])
+      titles[i].innerHTML = data[i].info.API_static_MainTitle
+    }
+  }
 })
