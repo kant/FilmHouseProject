@@ -8,7 +8,7 @@
       "id_layout" : "RFMsF3=k_UIDbookings&RFMsV3={id}&",
       "layout" :  "layout/Bookings_API.json?RFMsF1=API_calc_FlagWebPublish&RFMsV1=1&RFMsF2=API_static_WebVenueID&RFMsV2=CON10000000R44754520&RFMmax=10&",
       "data" : {
-        "fields": ["API_static_MainTitle", "API_static_LanguageText", "API_static_Cert"]
+        "fields": ["API_static_MainTitle", "API_static_LanguageText", "API_static_Cert", "API_static_Cast_Listing","API_static_Blurb"]
       }
     },
     {

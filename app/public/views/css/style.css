@@ -70,6 +70,14 @@
   height: 100%;
   z-index: 120;
 }
+
+.text-wrapper p {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
 .text-wrapper h1 {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
