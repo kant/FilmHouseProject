@@ -18,7 +18,7 @@ class FileManager {
   }
 
   CreateCursor(path) {
-    this.cursor = this.fileSystem.createWriteStream(path);
+    this.cursor = fileSystem.createWriteStream(path);
   }
 
   WriteFile(path, data) {
@@ -30,13 +30,13 @@ class FileManager {
   }
 
   CleanFile(path) {
-    this.fileSystem.writeFile(path, '', (err) => {
+    fileSystem.writeFile(path, '', (err) => {
       if(err) throw err
     })
   }
 
   WatchFileDataChange(path, callback) {
-    this.fileSystem.watch(path, { encoding: 'utf-8' }, callback)
+    fileSystem.watch(path, { encoding: 'utf-8' }, callback)
   }
 
   getName() {
