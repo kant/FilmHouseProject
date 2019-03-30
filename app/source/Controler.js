@@ -12,9 +12,7 @@ class Controler {
     this.views = {}
 
     this.fileManager = new FileManager()
-    console.log(this.fileManager.getName())
     this.configManager = new ConfigManager(this.fileManager, __dirbase + '/config/api.json','utf-8')
-    console.log(this.configManager.getApiConfig())
     this.apiManager = new ApiManager(this.configManager)
     this.dataManager = new DataManager(this.configManager)
   }
@@ -37,8 +35,10 @@ class Controler {
     return obj
   }
 
-  StoreData(data) {    
+  StoreData(data) {
+    console.log(this)
     if (data != null) {
+      console.log(this.fileManager.getName())
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(data, null, 4))
     }
   }
@@ -76,7 +76,7 @@ class Controler {
         .then(json => this.dataManager.JsonCleaning("booking", json.data))
         .then(info => info[0])
         .then(info => ({data: e, info}))
-        .then(this.StoreData)
+        .then(this.StoreData.bind(this))
         .catch(this.HandleError)
       }))
     .catch(this.HandleError)
