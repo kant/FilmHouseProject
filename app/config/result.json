@@ -1,0 +1,27 @@
+{
+    "data": {
+        "API_static_ParentBookingID": "BOO10025507R71338962",
+        "API_static_DateYMD": "2019-03-30",
+        "API_static_Showtime": "18:00"
+    },
+    "info": {
+        "API_static_MainTitle": "The White Crow",
+        "API_static_LanguageText": "Russian, English and French with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Oleg Ivenko, Ralph Fiennes, Louis Hofmann, Adèle Exarchopoulos, Chulpan Khamatova",
+        "API_static_Blurb": "It is 1961 and Rudolf Nureyev (Oleg Ivenko), not yet the imperious figure of legend, is a member of the world-renowned Kirov Ballet Company, travelling for the first time outside the Soviet Union. Once arriving in Paris Nureyev falls in love with the city, but the KGB officers who watch his every move become increasingly suspicious of his behaviour and his friendship with the young Parisienne Clara Saint. When they finally confront Nureyev with a shocking demand, he is forced to make a heart-breaking decision, one that may change the course of his life forever and put his family and friends in terrible danger. Directed by Ralph Fiennes, <i>The White Crow</i> tells the true story of an incredible journey by a unique artist who transformed the world of ballet forever."
+    }
+}{
+    "data": {
+        "API_static_ParentBookingID": "BOO10025911R97407644",
+        "API_static_DateYMD": "2019-03-30",
+        "API_static_Showtime": "12:00"
+    },
+    "info": {
+        "API_static_MainTitle": "Foxtrot",
+        "API_static_LanguageText": "Hebrew with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Lior Ashkenazi, Sarah Adler, Yonaton Shiray, Shira Haas",
+        "API_static_Blurb": "A desolate military checkpoint is manned by four young soldiers who all try to burn away the hours of boredom that occur between cars arriving for inspection and, every now and then, a lone camel walking by. Meanwhile at home, the parents of one of the boys are devastated by the news of his supposed sudden death, though the circumstances surrounding this take several unexpected twists. One of the most celebrated films on the international festival circuit, filmmaker Samuel Maoz (<i>Lebanon</i>) conjures up an intelligent dark comedy which inspects the bitter absurdities of war and the impact it has on the people involved."
+    }
+}

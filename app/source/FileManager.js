@@ -3,9 +3,9 @@ const fileSystem = require('fs')
 class FileManager {
 
   constructor() {
-    let name = "FileManager"
-    let cursor
-    let writeStream = fileSystem.createWriteStream('secret.txt');
+    this.name = "FileManager";
+    this.cursor;
+    this.writeStream = fileSystem.createWriteStream('secret.txt');
   }
 
   ReadFilePromise(path, encoding) {
