@@ -1,16 +1,15 @@
 "use strict"
 
-const fileManager = require('./FileManager')
-
 class ConfigManager {
 
-  constructor(path, encoding) {
+  constructor(fileManager, path, encoding) {
+    this.fileManager = fileManager
     this.api = this.LoadJsonFile(path, encoding)
   }
 
   LoadJsonFile(path, encoding) {
-    return fileManager.ReadFilePromise(path, encoding)
-    .then(result => JSON.parse(result))
+    return this.fileManager.ReadFilePromise(path, encoding)
+    .then(JSON.parse)
     .catch(err => { throw err})
   }
 

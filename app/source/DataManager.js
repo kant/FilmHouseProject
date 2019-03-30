@@ -1,5 +1,3 @@
-const ConfigManager = require('./ConfigManager');
-
 class DataManager {
 
   constructor(configManager) {
@@ -10,7 +8,7 @@ class DataManager {
     return this.apiConfig.then(api => {
       var res = []
       for(var i = 0; i < api.api_list.length; i++) {
-        if(api.api_list[i].api_name == name){          
+        if(api.api_list[i].api_name == name){
           if (api.api_list[i].data.fields.length == 0) return Promise.reject(new Error("There is no data to trim on"))
           for (var field of api.api_list[i].data.fields) {
             for(var j = 0; j < data.length; j++) {

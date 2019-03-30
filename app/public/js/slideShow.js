@@ -1,4 +1,5 @@
 // Require ipcRenderer
+"use strict"
 const { ipcRenderer } = require('electron');
 
 var slideIndex = 0;
@@ -16,25 +17,20 @@ function showSlides() {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  // dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // Change image every 10 seconds
 }
 
+function RenderNewMovie(data) {
+  console.log(data)
+  data.map(e => {
+    console.log(e)
+  })
+}
+
 ipcRenderer.on('update-from-mainWindow', (event, data) => {
-  var titles = document.getElementsByClassName("title")
-  var hour = document.getElementsByClassName("hour")
-  var cert = document.getElementsByClassName("cert")
-  var cast = document.getElementsByClassName("cast")
-  var blur = document.getElementsByClassName("blur")
   console.log(data)
   for(var i = 0; i < data.length; i++) {
-    if(i < titles.length) {
-      console.log(titles[i])
-      titles[i].innerHTML = data[i].info.API_static_MainTitle
-      hour[i].innerHTML = data[i].data.API_static_Showtime
-      cert[i].innerHTML = data[i].info.API_static_Cert
-      cast[i].innerHTML = data[i].info.API_static_Cast_Listing
-      blur[i].innerHTML = data[i].info.API_static_Blurb
-    }
+    RenderNewMovie(data)
   }
 })
