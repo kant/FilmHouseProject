@@ -38,6 +38,7 @@ class Controler {
   }
 
   StoreData(data) {
+    console.log(`this: ${this}`);
     console.log(this.fileManager.name)
     if (data != null) {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(data, null, 4))
@@ -57,9 +58,9 @@ class Controler {
   }
 
   getStoredData() {
-    this.fileManager.ReadFilePromise('/config/result.json', 'utf-8')
+    return this.fileManager.ReadFilePromise('/config/result.json', 'utf-8')
     .then(JSON.parse)
-    .then(data)
+    //.then(data)
   }
 
   HandleError(err) {
@@ -67,7 +68,7 @@ class Controler {
   }
 
   getApiData() {
-    this.apiManager.RequestApi("slots")
+    return this.apiManager.RequestApi("slots")
     .then(JSON.parse)
     .then(data => this.dataManager.JsonCleaning("slots", data.data))
     .then(data => {
@@ -77,10 +78,10 @@ class Controler {
         .then(json => this.dataManager.JsonCleaning("booking", json.data))
         .then(info => info[0])
         .then(info => ({data: e, info}))
-        .then(this.StoreData)
-        .catch(this.HandleError)
+        .then(this.StoreData.bind(this))
+        .catch(this.HandleError.bind(this))
       }))
-    .catch(this.HandleError)
+    .catch(this.HandleError.bind(this))
     })
   }
 }
