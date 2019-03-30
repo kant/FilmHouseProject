@@ -1,22 +1,30 @@
 {
-  "name": "electron-quick-start",
+  "name": "film_house_project",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": "Small uni project",
+  "main": "source/main.js",
+  "dependencies": {
+    "electron": "^4.0.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ptipiak/FilmHouseProject.git"
+  },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "cross-platform",
+    "desktop",
+    "app"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^4.0.2"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ptipiak/FilmHouseProject/issues"
+  },
+  "homepage": "https://github.com/Ptipiak/FilmHouseProject#readme"
 }
