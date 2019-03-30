@@ -37,8 +37,7 @@ class Controler {
     return obj
   }
 
-  StoreData(data) {
-    console.log(this.fileManager.name)
+  StoreData(data) {    
     if (data != null) {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(data, null, 4))
     }
