@@ -5,7 +5,8 @@ class DataManager {
   }
 
   JsonCleaning(name, data) {
-    return this.apiConfig.then(api => {
+    return this.apiConfig
+    .then(api => {
       var res = []
       for(var i = 0; i < api.api_list.length; i++) {
         if(api.api_list[i].api_name == name){

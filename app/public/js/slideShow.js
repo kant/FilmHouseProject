@@ -22,15 +22,15 @@ function showSlides() {
 }
 
 function RenderNewMovie(data) {
-  console.log(data)
-  data.map(e => {
-    console.log(e)
-  })
+  // console.log(data)
+  // data.map(e => {
+  //   console.log(e)
+  // })
 }
 
-ipcRenderer.on('update-from-mainWindow', (event, data) => {
+ipcRenderer.on('data-update', (event, data) => {
   console.log(data)
-  for(var i = 0; i < data.length; i++) {
-    RenderNewMovie(data)
-  }
+  // for(var i = 0; i < data.length; i++) {
+  //   RenderNewMovie(data)
+  // }
 })

@@ -1,10 +1,10 @@
 const fileSystem = require('fs')
+const events = require('events');
 
 class FileManager {
 
   constructor() {
-    this.name = "FileManager"
-    this.cursor = null
+    this.api_data = []
   }
 
   ReadFilePromise(path, encoding) {
@@ -16,16 +16,10 @@ class FileManager {
     })
   }
 
-  CreateCursor(path) {
-    this.cursor = fileSystem.createWriteStream(path);
-  }
-
-  WriteFile(path, data) {
-    if(this.cursor == null) this.CreateCursor(path)
-    this.cursor.write(data)
-    this.cursor.on('finish', () => {
-      console.log('wrote all data to file');
-    });
+  WriteFile(path, data, encoding) {
+    fileSystem.writeFile(path, data, encoding, (err) => {
+      if(err) throw err
+    })
   }
 
   CleanFile(path) {
@@ -34,12 +28,8 @@ class FileManager {
     })
   }
 
-  WatchFileDataChange(path, callback) {
+  MonitorFile(path, callback) {
     fileSystem.watch(path, { encoding: 'utf-8' }, callback)
-  }
-
-  getName() {
-    return this.name
   }
 }
 

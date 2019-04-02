@@ -43,7 +43,6 @@ app.on('activate', function () {
 })
 
 //MAIN
-controler.SendDataToView(null)
 controler.getApiData()
 ipcMain.on('UpdateScreen2', (event, data) => {
   if(secondWindow == null) {
@@ -52,5 +51,5 @@ ipcMain.on('UpdateScreen2', (event, data) => {
       secondWindow = null
     })
   }
-  if(secondWindow != null) controler.SendDataToView(secondWindow)
+  if(secondWindow != null) controler.MonitorDataForView(secondWindow, __dirbase + '/config/result.json')
 })

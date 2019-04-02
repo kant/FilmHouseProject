@@ -9,7 +9,7 @@ class Controler {
   constructor() {
     console.log('Controler created')
     this.api_data = []
-    this.views = {}
+    this.encoding = 'utf-8'
 
     this.fileManager = new FileManager()
     this.configManager = new ConfigManager(this.fileManager, __dirbase + '/config/api.json','utf-8')
@@ -28,7 +28,6 @@ class Controler {
       }
     })
     obj.loadFile(html_path)
-    this.views[name] = obj
     obj.once('ready-to-show', () => {
       obj.show()
     })
@@ -36,10 +35,9 @@ class Controler {
   }
 
   StoreData(data) {
-    console.log(this)
     if (data != null) {
-      console.log(this.fileManager.getName())
-      this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(data, null, 4))
+      this.api_data.push(data)
+      this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(this.api_data, null, 4), this.encoding)
     }
   }
 
@@ -47,18 +45,10 @@ class Controler {
     this.fileManager.CleanFile(__dirbase + '/config/result.json')
   }
 
-  SendDataToView(view) {
-    this.fileManager.WatchFileDataChange(__dirbase +'/config/result.json', (event, filename) => {
-      if(event === 'change') {
-        // this.getStoredData()
-      }
-    })
-  }
-
-  getStoredData() {
-    this.fileManager.ReadFilePromise('/config/result.json', 'utf-8')
+  getStoredData(path, encoding) {
+    return this.fileManager.ReadFilePromise(path, encoding)
     .then(JSON.parse)
-    .then(data)
+    .catch(this.HandleError)
   }
 
   HandleError(err) {
@@ -66,7 +56,7 @@ class Controler {
   }
 
   getApiData() {
-    this.apiManager.RequestApi("slots")
+    return this.apiManager.RequestApi("slots")
     .then(JSON.parse)
     .then(data => this.dataManager.JsonCleaning("slots", data.data))
     .then(data => {
@@ -75,13 +65,33 @@ class Controler {
         .then(JSON.parse)
         .then(json => this.dataManager.JsonCleaning("booking", json.data))
         .then(info => info[0])
-        .then(info => ({data: e, info}))
+        .then(info => { return Object.assign(e,info) })
         .then(this.StoreData.bind(this))
         .catch(this.HandleError)
       }))
     .catch(this.HandleError)
     })
   }
+
+  MonitorDataForView(view, path) {
+    this.SendDataToView(view, path)
+    this.fileManager.MonitorFile(path, (event, filename) => {
+      console.log(event)
+      if(event === 'change') {
+        console.log('change')
+        this.SendDataToView(view, path)
+      }
+    })
+  }
+
+  SendDataToView(view, path) {
+    this.getStoredData(path)
+    .then(api_data => {
+      view.webContents.send('data-update', api_data)
+    })
+    .catch(this.HandleError)
+  }
+
 }
 
 module.exports = Controler
