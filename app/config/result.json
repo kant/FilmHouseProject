@@ -1,58 +1,38 @@
 [
     {
-        "API_static_ParentBookingID": "BOO10025906R95067731",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "20:45",
-        "API_static_MainTitle": "At Eternity's Gate",
-        "API_static_LanguageText": "French and English with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Willem Dafoe, Oscar Isaac, Mads Mikkelsen, Emmanuelle Seigner, Rupert Friend, Niels Arestrup",
-        "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026414R95401929",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "20:20",
-        "API_static_MainTitle": "A Clockwork Orange",
+        "API_static_ParentBookingID": "BOO10024760R28579131",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "11:00",
+        "API_static_MainTitle": "Zarafa",
         "API_static_LanguageText": "",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive",
-        "API_static_Blurb": "Stanley Kubrick's iconic <i>A Clockwork Orange</i> is an intelligent, visually stunning, disturbing and yet queasily entertaining adaptation of a great work of literature. Adapted from Anthony Burgess's best-selling novel written in the invented street slang Nadsat, the film tells the story of Alex (Malcolm McDowell) and his 'droog' (read: thug) friends, addicted to mindless acts of violence, killing the homeless and raping women. Equally violent is the state's aversion therapy Alex is forced to endure to cure him of his addiction...\nBold, hypnotic and still hugely impactful almost 50 years on."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026415R48990475",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "12:15",
-        "API_static_MainTitle": "The Favourite",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Olivia Colman, Emma Stone, Rachel Weisz, Nicholas Hoult, Mark Gatiss, Joe Alwyn",
-        "API_static_Blurb": "The early 18th century; England is fighting the French and a frail, capricious Queen Anne (Olivia Colman) sits on the throne; though due to her poor health she relies on her close friend Lady Sarah (Rachel Weisz) to govern on her behalf. But as the politics of war begin to consume Sarah's time, a new servant Abigail (Emma Stone) steps into the breach; beginning a rapidly burgeoning friendship with the Queen that gives Abigail a chance to restore her social status. Soon the balance of power shifts between the women as they jockey for influence with the Queen and the court..."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024113R55765155",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "15:00",
-        "API_static_MainTitle": "Dr. No",
-        "API_static_LanguageText": "English and French with English subtitles",
         "API_static_Cert": "PG",
-        "API_static_Cast_Listing": "Sean Connery, Ursula Andress, Joseph Wiseman, Jack Lord, Bernard Lee",
-        "API_static_Blurb": "The film that launched the Bond franchise to the world, journey to Jamaica with Moneypenny, Galore and a gang of evil assassins that pit Sean Connery’s Bond against his paces in the adaptation of Fleming’s sixth novel. Introducing the now famous theme tune from James Norman and high-tech set from Ken Adams (who went on to work on Kubrick’s <i>Dr Strangelove</i>), revel Connery’s home-grown accent and dead pan humour as he unravels Dr No’s plot to intervene with a US space programme.\n"
+        "API_static_Cast_Listing": "Raeusi Uraeus, Zariah Singletary, Sjaak Caderyn, Scottie Ray, Nya-Jolie Walters",
+        "API_static_Blurb": "With stunning animation, <i>Zarafa</i> gorgeously tells the story of the undying friendship between 10-year-old Maki and Zarafa. an orphaned giraffe. Intended as a gift for the King of France, Prince of the Desert Hassan is instructed to deliver the giraffe himself, but Maki makes up his mind to bring Zarafa back to its native land – even if it means risking his life."
     },
     {
         "API_static_ParentBookingID": "BOO10026414R95401929",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "14:50",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "14:00",
         "API_static_MainTitle": "A Clockwork Orange",
         "API_static_LanguageText": "",
         "API_static_Cert": "18",
         "API_static_Cast_Listing": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive",
         "API_static_Blurb": "Stanley Kubrick's iconic <i>A Clockwork Orange</i> is an intelligent, visually stunning, disturbing and yet queasily entertaining adaptation of a great work of literature. Adapted from Anthony Burgess's best-selling novel written in the invented street slang Nadsat, the film tells the story of Alex (Malcolm McDowell) and his 'droog' (read: thug) friends, addicted to mindless acts of violence, killing the homeless and raping women. Equally violent is the state's aversion therapy Alex is forced to endure to cure him of his addiction...\nBold, hypnotic and still hugely impactful almost 50 years on."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10024117R87433453",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "14:20",
+        "API_static_MainTitle": "On Her Majesty's Secret Service",
+        "API_static_LanguageText": "English, German and French with English subtitles",
+        "API_static_Cert": "PG",
+        "API_static_Cast_Listing": "George Lazenby, Diana Rigg, Telly Savalas, Gabriele Ferzetti, Ilse Steppat",
+        "API_static_Blurb": "Celebrating the 50th anniversary of George Lazenby’s only appearance as Bond, head fly to the Swiss Alps and sunny Portugal for a daring adventure of bacteriological warfare created by the Angels Of Death. It’s spy central as Dianna Rigg and Joanna Lumley (both holding their own in <i>The Avengers</i> and <i>The New Avengers</i>) make appearances on the good and evil sides of the menacing Ernst Stavro Blofeld (Terry Savalas). Often thought of as having the best score in the series from composer John Barry – who worked on twelve Bond Films – get caught up in the action with chase scenes on skis and bob sleighs. \n"
     },
     {
         "API_static_ParentBookingID": "BOO10026422R27615092",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "12:40",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "15:15",
         "API_static_MainTitle": "Happy As Lazzaro",
         "API_static_LanguageText": "Italian with English subtitles",
         "API_static_Cert": "12A",
@@ -60,28 +40,28 @@
         "API_static_Blurb": "Lazzaro (talented newcomer Adriano Tardiolo) is a peasant whose sweet nature makes people mistake him for simple-minded. He happily does the bidding of anyone in his local village, which is ruled over by tobacco baroness Marchesa, and finds an unlikely friend in Marchesa's petulant, spoiled son Tancredi, who convinces his hapless ally to help him stage a dramatic incident. \nWriter-director Alice Rohrwacher delivers a magic-realist fable, rich in exotic beauty and exquisite imagery, that doubles as an origin myth for a modern Italy consumed by corruption and decline."
     },
     {
-        "API_static_ParentBookingID": "BOO10026415R48990475",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "17:45",
-        "API_static_MainTitle": "The Favourite",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Olivia Colman, Emma Stone, Rachel Weisz, Nicholas Hoult, Mark Gatiss, Joe Alwyn",
-        "API_static_Blurb": "The early 18th century; England is fighting the French and a frail, capricious Queen Anne (Olivia Colman) sits on the throne; though due to her poor health she relies on her close friend Lady Sarah (Rachel Weisz) to govern on her behalf. But as the politics of war begin to consume Sarah's time, a new servant Abigail (Emma Stone) steps into the breach; beginning a rapidly burgeoning friendship with the Queen that gives Abigail a chance to restore her social status. Soon the balance of power shifts between the women as they jockey for influence with the Queen and the court..."
+        "API_static_ParentBookingID": "BOO10026422R27615092",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "15:15",
+        "API_static_MainTitle": "Happy As Lazzaro",
+        "API_static_LanguageText": "Italian with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Adriano Tardiolo, Sergi López, Alba Rohrwacher, Luca Chikovani, Nicoletta Braschi",
+        "API_static_Blurb": "Lazzaro (talented newcomer Adriano Tardiolo) is a peasant whose sweet nature makes people mistake him for simple-minded. He happily does the bidding of anyone in his local village, which is ruled over by tobacco baroness Marchesa, and finds an unlikely friend in Marchesa's petulant, spoiled son Tancredi, who convinces his hapless ally to help him stage a dramatic incident. \nWriter-director Alice Rohrwacher delivers a magic-realist fable, rich in exotic beauty and exquisite imagery, that doubles as an origin myth for a modern Italy consumed by corruption and decline."
     },
     {
-        "API_static_ParentBookingID": "BOO10025906R95067731",
-        "API_static_DateYMD": "2019-04-06",
-        "API_static_Showtime": "15:25",
-        "API_static_MainTitle": "At Eternity's Gate",
-        "API_static_LanguageText": "French and English with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Willem Dafoe, Oscar Isaac, Mads Mikkelsen, Emmanuelle Seigner, Rupert Friend, Niels Arestrup",
-        "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
+        "API_static_ParentBookingID": "BOO10026414R95401929",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "17:00",
+        "API_static_MainTitle": "A Clockwork Orange",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive",
+        "API_static_Blurb": "Stanley Kubrick's iconic <i>A Clockwork Orange</i> is an intelligent, visually stunning, disturbing and yet queasily entertaining adaptation of a great work of literature. Adapted from Anthony Burgess's best-selling novel written in the invented street slang Nadsat, the film tells the story of Alex (Malcolm McDowell) and his 'droog' (read: thug) friends, addicted to mindless acts of violence, killing the homeless and raping women. Equally violent is the state's aversion therapy Alex is forced to endure to cure him of his addiction...\nBold, hypnotic and still hugely impactful almost 50 years on."
     },
     {
         "API_static_ParentBookingID": "BOO10026419R23537030",
-        "API_static_DateYMD": "2019-04-06",
+        "API_static_DateYMD": "2019-04-07",
         "API_static_Showtime": "17:50",
         "API_static_MainTitle": "The Vanishing",
         "API_static_LanguageText": "",
@@ -91,7 +71,7 @@
     },
     {
         "API_static_ParentBookingID": "BOO10026422R27615092",
-        "API_static_DateYMD": "2019-04-06",
+        "API_static_DateYMD": "2019-04-07",
         "API_static_Showtime": "18:00",
         "API_static_MainTitle": "Happy As Lazzaro",
         "API_static_LanguageText": "Italian with English subtitles",
@@ -100,13 +80,43 @@
         "API_static_Blurb": "Lazzaro (talented newcomer Adriano Tardiolo) is a peasant whose sweet nature makes people mistake him for simple-minded. He happily does the bidding of anyone in his local village, which is ruled over by tobacco baroness Marchesa, and finds an unlikely friend in Marchesa's petulant, spoiled son Tancredi, who convinces his hapless ally to help him stage a dramatic incident. \nWriter-director Alice Rohrwacher delivers a magic-realist fable, rich in exotic beauty and exquisite imagery, that doubles as an origin myth for a modern Italy consumed by corruption and decline."
     },
     {
-        "API_static_ParentBookingID": "BOO10024116R33666631",
-        "API_static_DateYMD": "2019-04-06",
+        "API_static_ParentBookingID": "BOO10026415R48990475",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "20:00",
+        "API_static_MainTitle": "The Favourite",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Olivia Colman, Emma Stone, Rachel Weisz, Nicholas Hoult, Mark Gatiss, Joe Alwyn",
+        "API_static_Blurb": "The early 18th century; England is fighting the French and a frail, capricious Queen Anne (Olivia Colman) sits on the throne; though due to her poor health she relies on her close friend Lady Sarah (Rachel Weisz) to govern on her behalf. But as the politics of war begin to consume Sarah's time, a new servant Abigail (Emma Stone) steps into the breach; beginning a rapidly burgeoning friendship with the Queen that gives Abigail a chance to restore her social status. Soon the balance of power shifts between the women as they jockey for influence with the Queen and the court..."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10024118R19609516",
+        "API_static_DateYMD": "2019-04-07",
         "API_static_Showtime": "20:20",
-        "API_static_MainTitle": "Casino Royale",
-        "API_static_LanguageText": "English, French, Gaelic, German and Japanese with English subtitles",
+        "API_static_MainTitle": "Live And Let Die",
+        "API_static_LanguageText": "English and Hungarian with English subtitles",
         "API_static_Cert": "PG",
-        "API_static_Cast_Listing": "Peter Sellers, Ursula Andress, David Niven, Orson Welles, Joanna Pettet",
-        "API_static_Blurb": "David Niven isn’t the only Bond in perhaps the most glamorous film in the series which features an abduction in a flying saucer... Deborah Kerr, Woody Allen, Peter Sellers and Orson Welles star alongside Niven as Bond attempts to stop the agents of SMERSH in their quest to eliminating MI6 agents. Hallucinogenic and atomic warfare play out on the tables of the casino, accompanied by a dreamy soundtrack from Burt Bacharach and the thrilling vocals of Dusty Springfield.\n"
+        "API_static_Cast_Listing": "Roger Moore, Yaphet Kotto, Jane Seymour, Clifton James, Julius W. Harris",
+        "API_static_Blurb": "You used to say that the world was an open book… Roger Moore’s first outing as 007 takes an different plotline to its predecessors. Relocating the action away from flashy hotel resorts to the streets of Harlem. Alongside tarot-reading Solitaire (Jane Seymour), Bond tackles drug lord Mr. Big (Yaphet Kotto) and foil is his plan to increase his heroin empire. Featuring the first African American Bond girl (Gloria Hendry as Rosie Carver), the film also picked up a nomination for Best Original Song at the Academy Awards for the title track, written by Paul and Linda McCartney. \n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10025906R95067731",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "20:45",
+        "API_static_MainTitle": "At Eternity's Gate",
+        "API_static_LanguageText": "French and English with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Willem Dafoe, Oscar Isaac, Mads Mikkelsen, Emmanuelle Seigner, Rupert Friend, Niels Arestrup",
+        "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
+    }
+]    {
+        "API_static_ParentBookingID": "BOO10025906R95067731",
+        "API_static_DateYMD": "2019-04-07",
+        "API_static_Showtime": "20:45",
+        "API_static_MainTitle": "At Eternity's Gate",
+        "API_static_LanguageText": "French and English with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Willem Dafoe, Oscar Isaac, Mads Mikkelsen, Emmanuelle Seigner, Rupert Friend, Niels Arestrup",
+        "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
     }
 ]

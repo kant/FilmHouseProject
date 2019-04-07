@@ -10,7 +10,11 @@
 <body>
 
   <div id="app">
-    <movie-element v-bind:movie-title="movie.title" v-bind:class="{ shade: isActive }"></movie-element>
+    <transition name="fade">
+      <ol class="movie-display" v-if="show">
+        <movie-element v-for="item in movie" v-bind:movie-elem="item"></movie-element>
+      </ol>
+    </transition>
   </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>

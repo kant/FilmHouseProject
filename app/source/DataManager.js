@@ -2,6 +2,8 @@ class DataManager {
 
   constructor(configManager) {
     this.apiConfig = configManager.getApiConfig()
+    this.mimic = []
+    this.api_data = []
   }
 
   JsonCleaning(name, data) {
@@ -25,8 +27,56 @@ class DataManager {
     .catch(err => { throw err })
   }
 
-  CheckTimeStamp(name, data) {
-    
+  WriteFileByTime(data) {
+    return new Promise((resolve, reject) => {
+      console.log(this.mimic)
+      if(this.mimic.length == 0) {
+        this.mimic.push(this.TimeToInt(data.API_static_Showtime))
+        this.api_data.push(data)
+        resolve(this.api_data)
+      }
+      var lastIndex = this.mimic.length - 1
+      if(this.mimic[lastIndex] > this.TimeToInt(data.API_static_Showtime)) {
+        this.Sort(data, this.TimeToInt(data.API_static_Showtime))
+        resolve(this.api_data)
+      } else {
+        this.api_data.push(data)
+        this.mimic.push(this.TimeToInt(data.API_static_Showtime))
+        resolve(this.api_data)
+      }
+      reject(new Error("nik"));
+    })
+  }
+
+  Sort(data, timeStamp) {
+
+    var index = this.api_data.length - 1
+
+    while(this.mimic[index] > timeStamp  && index > 0) {
+      index--
+    }
+    if(index > 0) index++    
+    this.InserAt(this.api_data, data, index)
+    this.InserAt(this.mimic, timeStamp, index)
+  }
+
+  InserAt(collection, data, index) {
+    collection.splice(index, 0, data)
+  }
+
+  TimeToInt(time) {
+    var timeStamp = 0
+    var split = time.split(':').reverse()
+    var curr = Math.pow(60, split.length)
+    while(split.length > 0) {
+      timeStamp += curr * parseInt(split.pop(), 10)
+      curr /= 60
+    }
+    return timeStamp
+  }
+
+  getApiData() {
+    return this.api_data
   }
 }
 

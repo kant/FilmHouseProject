@@ -8,7 +8,6 @@ class Controler {
 
   constructor() {
     console.log('Controler created')
-    this.api_data = []
     this.encoding = 'utf-8'
     this.watcher = null
 
@@ -33,27 +32,6 @@ class Controler {
       obj.show()
     })
     return obj
-  }
-
-  StoreData(data) {
-    if (data != null) {
-      this.api_data.push(data)
-      this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(this.api_data, null, 4), this.encoding)
-    }
-  }
-
-  ClearData() {
-    this.fileManager.CleanFile(__dirbase + '/config/result.json')
-  }
-
-  getStoredData(path) {
-    return this.fileManager.ReadFile(path, this.encoding)
-    .then(api_data => {
-      console.log(api_data == null)
-      if(api_data != null)
-        return JSON.parse(api_data)
-    })
-    .catch(err => console.log(err))
   }
 
   HandleError(err) {
@@ -85,7 +63,7 @@ class Controler {
     }
     this.watcher
     .on('change', path =>  {
-      console.log(`File ${path} has been changed`)
+      // console.log(`File ${path} has been changed`)
       this.SendDataToView(view, path)
     })
   }
@@ -98,6 +76,27 @@ class Controler {
     .catch(this.HandleError)
   }
 
+  StoreData(data) {
+    this.dataManager.WriteFileByTime(data)
+    .then(api_data => {
+      this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(api_data, null, 4), this.encoding)
+    })
+    .catch(this.HandleError)
+  }
+
+  getStoredData(path) {
+    return this.fileManager.ReadFile(path, this.encoding)
+    .then(api_data => {
+      return JSON.parse(api_data)
+    })
+    .catch(err => {
+      return Promise.reject(new Error("there was problem with the JSON parsing"));
+    })
+  }
+
+  ClearData() {
+    this.fileManager.CleanFile(__dirbase + '/config/result.json')
+  }
 }
 
 module.exports = Controler

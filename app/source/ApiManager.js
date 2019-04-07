@@ -40,9 +40,7 @@ class ApiManager {
   }
 
   RequestApiById(name, id) {
-    // console.log('search on ' + name + ' for id:' + id)
-    return this.apiConfig.then(api => {
-      //main loop
+    return this.apiConfig.then(api => {      
       for(var i = 0; i < api.api_list.length; i++) {
         if(api.api_list[i].api_name == name){
           if(api.api_list[i].id_layout != null) {

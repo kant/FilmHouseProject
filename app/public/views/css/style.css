@@ -4,17 +4,19 @@ body {
   background-color: black;
 }
 
-#movie-display {
-    color: white;
+.movie-display {
+  color: white;
 }
 
-.shade {
-  animation-name: example ;
-  animation-duration: 2s;  
+ol.movie-display {
+  padding: 0;
 }
 
-@keyframes example  {
-    0% {color: black;}
-    50% {color: white;}
-    100% {color: black;}
+.fade-enter-active {
+  transition: all 800ms ease-in;
+  color: white;
+}
+.fade-leave-active {
+  transition: all 800ms ease-out;
+  color: black;
 }
