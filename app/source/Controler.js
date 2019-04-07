@@ -10,6 +10,7 @@ class Controler {
     console.log('Controler created')
     this.api_data = []
     this.encoding = 'utf-8'
+    this.watcher = null
 
     this.fileManager = new FileManager()
     this.configManager = new ConfigManager(this.fileManager, __dirbase + '/config/api.json','utf-8')
@@ -45,10 +46,14 @@ class Controler {
     this.fileManager.CleanFile(__dirbase + '/config/result.json')
   }
 
-  getStoredData(path, encoding) {
-    return this.fileManager.ReadFilePromise(path, encoding)
-    .then(JSON.parse)
-    .catch(this.HandleError)
+  getStoredData(path) {
+    return this.fileManager.ReadFile(path, this.encoding)
+    .then(api_data => {
+      console.log(api_data == null)
+      if(api_data != null)
+        return JSON.parse(api_data)
+    })
+    .catch(err => console.log(err))
   }
 
   HandleError(err) {
@@ -75,12 +80,13 @@ class Controler {
 
   MonitorDataForView(view, path) {
     this.SendDataToView(view, path)
-    this.fileManager.MonitorFile(path, (event, filename) => {
-      console.log(event)
-      if(event === 'change') {
-        console.log('change')
-        this.SendDataToView(view, path)
-      }
+    if(this.watcher === null) {
+      this.watcher = this.fileManager.MonitorFile(path)
+    }
+    this.watcher
+    .on('change', path =>  {
+      console.log(`File ${path} has been changed`)
+      this.SendDataToView(view, path)
     })
   }
 

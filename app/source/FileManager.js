@@ -1,5 +1,5 @@
 const fileSystem = require('fs')
-const events = require('events');
+const chokidar = require('chokidar');
 
 class FileManager {
 
@@ -7,7 +7,7 @@ class FileManager {
     this.api_data = []
   }
 
-  ReadFilePromise(path, encoding) {
+  ReadFile(path, encoding) {
     return new Promise((resolve, reject) => {
       return fileSystem.readFile(path, encoding, (err, data) => {
         if(err) reject(err)
@@ -28,8 +28,11 @@ class FileManager {
     })
   }
 
-  MonitorFile(path, callback) {
-    fileSystem.watch(path, { encoding: 'utf-8' }, callback)
+  MonitorFile(path) {    
+    return chokidar.watch(path, {
+      ignored: /(^|[\/\\])\../,
+      persistent: true
+    });
   }
 }
 

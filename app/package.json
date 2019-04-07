@@ -4,9 +4,10 @@
   "description": "Small uni project",
   "main": "source/main.js",
   "dependencies": {
+    "chokidar": "^2.1.5",
     "electron": "^4.0.5",
-    "promisify-node": "^0.5.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "vue": "^2.6.10"
   },
   "devDependencies": {},
   "scripts": {

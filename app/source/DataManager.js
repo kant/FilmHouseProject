@@ -24,6 +24,10 @@ class DataManager {
     })
     .catch(err => { throw err })
   }
+
+  CheckTimeStamp(name, data) {
+    
+  }
 }
 
 module.exports = DataManager

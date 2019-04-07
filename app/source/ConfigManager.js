@@ -8,7 +8,7 @@ class ConfigManager {
   }
 
   LoadJsonFile(path, encoding) {
-    return this.fileManager.ReadFilePromise(path, encoding)
+    return this.fileManager.ReadFile(path, encoding)
     .then(JSON.parse)
     .catch(err => { throw err})
   }

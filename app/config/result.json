@@ -1,48 +1,8 @@
 [
     {
-        "API_static_ParentBookingID": "BOO10025437R81402089",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "13:05",
-        "API_static_MainTitle": "Girl",
-        "API_static_LanguageText": "French, Flemish and English with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Victor Polster, Arieh Worthalter, Oliver Bodart, Tijmen Govaerts, Katelijne Damen, Valentijn Dhaenens",
-        "API_static_Blurb": "<i>\"We are excited to be screening this newly released, award winning film as part of Moving Cinema 2019.</i> <i>Girl</i> centres on Lara, a dedicated and talented 15-year-old transgender girl, who is committed to becoming a professional ballerina. This film grabbed me as it shows very intricate details of how Lara copes, and her feelings and pain as she waits for transition surgery. The excellent cinematography effectively conveys the thrill and skill of her dancing. It’s a powerful character study and I believe the film will make audiences empathise with and understand transgender people better. The film has attracted some controversy for casting a cis gender man in the central role. I say, come along and see for yourself.</i>\" - Leon Heun\n"
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025915R26055910",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "18:00",
-        "API_static_MainTitle": "Free Solo",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "",
-        "API_static_Blurb": "From award-winning documentary filmmaker E. Chai Vasarhelyi and world-renowned photographer and mountaineer Jimmy Chin comes <i>Free Solo</i>, a stunning, intimate and unflinching portrait of free soloist climber Alex Honnold, as he prepares to achieve his lifelong dream: climbing Yosemite's 3,000ft high El Capitan Wall... without a rope. Celebrated as one of the greatest athletic feats of any kind, Honnold’s climb set the ultimate standard: perfection or death. Succeeding in this challenge places his story in the annals of human achievement."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025507R71338962",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "20:35",
-        "API_static_MainTitle": "The White Crow",
-        "API_static_LanguageText": "Russian, English and French with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Oleg Ivenko, Ralph Fiennes, Louis Hofmann, Adèle Exarchopoulos, Chulpan Khamatova",
-        "API_static_Blurb": "It is 1961 and Rudolf Nureyev (Oleg Ivenko), not yet the imperious figure of legend, is a member of the world-renowned Kirov Ballet Company, travelling for the first time outside the Soviet Union. Once arriving in Paris Nureyev falls in love with the city, but the KGB officers who watch his every move become increasingly suspicious of his behaviour and his friendship with the young Parisienne Clara Saint. When they finally confront Nureyev with a shocking demand, he is forced to make a heart-breaking decision, one that may change the course of his life forever and put his family and friends in terrible danger. Directed by Ralph Fiennes, <i>The White Crow</i> tells the true story of an incredible journey by a unique artist who transformed the world of ballet forever."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025911R97407644",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "18:05",
-        "API_static_MainTitle": "Foxtrot",
-        "API_static_LanguageText": "Hebrew with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Lior Ashkenazi, Sarah Adler, Yonaton Shiray, Shira Haas",
-        "API_static_Blurb": "A desolate military checkpoint is manned by four young soldiers who all try to burn away the hours of boredom that occur between cars arriving for inspection and, every now and then, a lone camel walking by. Meanwhile at home, the parents of one of the boys are devastated by the news of his supposed sudden death, though the circumstances surrounding this take several unexpected twists. One of the most celebrated films on the international festival circuit, filmmaker Samuel Maoz (<i>Lebanon</i>) conjures up an intelligent dark comedy which inspects the bitter absurdities of war and the impact it has on the people involved."
-    },
-    {
         "API_static_ParentBookingID": "BOO10025906R95067731",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "15:40",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "20:45",
         "API_static_MainTitle": "At Eternity's Gate",
         "API_static_LanguageText": "French and English with English subtitles",
         "API_static_Cert": "12A",
@@ -50,19 +10,69 @@
         "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
     },
     {
-        "API_static_ParentBookingID": "BOO10025507R71338962",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "13:00",
-        "API_static_MainTitle": "The White Crow",
-        "API_static_LanguageText": "Russian, English and French with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Oleg Ivenko, Ralph Fiennes, Louis Hofmann, Adèle Exarchopoulos, Chulpan Khamatova",
-        "API_static_Blurb": "It is 1961 and Rudolf Nureyev (Oleg Ivenko), not yet the imperious figure of legend, is a member of the world-renowned Kirov Ballet Company, travelling for the first time outside the Soviet Union. Once arriving in Paris Nureyev falls in love with the city, but the KGB officers who watch his every move become increasingly suspicious of his behaviour and his friendship with the young Parisienne Clara Saint. When they finally confront Nureyev with a shocking demand, he is forced to make a heart-breaking decision, one that may change the course of his life forever and put his family and friends in terrible danger. Directed by Ralph Fiennes, <i>The White Crow</i> tells the true story of an incredible journey by a unique artist who transformed the world of ballet forever."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025906R95067731",
-        "API_static_DateYMD": "2019-04-02",
+        "API_static_ParentBookingID": "BOO10026414R95401929",
+        "API_static_DateYMD": "2019-04-06",
         "API_static_Showtime": "20:20",
+        "API_static_MainTitle": "A Clockwork Orange",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive",
+        "API_static_Blurb": "Stanley Kubrick's iconic <i>A Clockwork Orange</i> is an intelligent, visually stunning, disturbing and yet queasily entertaining adaptation of a great work of literature. Adapted from Anthony Burgess's best-selling novel written in the invented street slang Nadsat, the film tells the story of Alex (Malcolm McDowell) and his 'droog' (read: thug) friends, addicted to mindless acts of violence, killing the homeless and raping women. Equally violent is the state's aversion therapy Alex is forced to endure to cure him of his addiction...\nBold, hypnotic and still hugely impactful almost 50 years on."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026415R48990475",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "12:15",
+        "API_static_MainTitle": "The Favourite",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Olivia Colman, Emma Stone, Rachel Weisz, Nicholas Hoult, Mark Gatiss, Joe Alwyn",
+        "API_static_Blurb": "The early 18th century; England is fighting the French and a frail, capricious Queen Anne (Olivia Colman) sits on the throne; though due to her poor health she relies on her close friend Lady Sarah (Rachel Weisz) to govern on her behalf. But as the politics of war begin to consume Sarah's time, a new servant Abigail (Emma Stone) steps into the breach; beginning a rapidly burgeoning friendship with the Queen that gives Abigail a chance to restore her social status. Soon the balance of power shifts between the women as they jockey for influence with the Queen and the court..."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10024113R55765155",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "15:00",
+        "API_static_MainTitle": "Dr. No",
+        "API_static_LanguageText": "English and French with English subtitles",
+        "API_static_Cert": "PG",
+        "API_static_Cast_Listing": "Sean Connery, Ursula Andress, Joseph Wiseman, Jack Lord, Bernard Lee",
+        "API_static_Blurb": "The film that launched the Bond franchise to the world, journey to Jamaica with Moneypenny, Galore and a gang of evil assassins that pit Sean Connery’s Bond against his paces in the adaptation of Fleming’s sixth novel. Introducing the now famous theme tune from James Norman and high-tech set from Ken Adams (who went on to work on Kubrick’s <i>Dr Strangelove</i>), revel Connery’s home-grown accent and dead pan humour as he unravels Dr No’s plot to intervene with a US space programme.\n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026414R95401929",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "14:50",
+        "API_static_MainTitle": "A Clockwork Orange",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive",
+        "API_static_Blurb": "Stanley Kubrick's iconic <i>A Clockwork Orange</i> is an intelligent, visually stunning, disturbing and yet queasily entertaining adaptation of a great work of literature. Adapted from Anthony Burgess's best-selling novel written in the invented street slang Nadsat, the film tells the story of Alex (Malcolm McDowell) and his 'droog' (read: thug) friends, addicted to mindless acts of violence, killing the homeless and raping women. Equally violent is the state's aversion therapy Alex is forced to endure to cure him of his addiction...\nBold, hypnotic and still hugely impactful almost 50 years on."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026422R27615092",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "12:40",
+        "API_static_MainTitle": "Happy As Lazzaro",
+        "API_static_LanguageText": "Italian with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Adriano Tardiolo, Sergi López, Alba Rohrwacher, Luca Chikovani, Nicoletta Braschi",
+        "API_static_Blurb": "Lazzaro (talented newcomer Adriano Tardiolo) is a peasant whose sweet nature makes people mistake him for simple-minded. He happily does the bidding of anyone in his local village, which is ruled over by tobacco baroness Marchesa, and finds an unlikely friend in Marchesa's petulant, spoiled son Tancredi, who convinces his hapless ally to help him stage a dramatic incident. \nWriter-director Alice Rohrwacher delivers a magic-realist fable, rich in exotic beauty and exquisite imagery, that doubles as an origin myth for a modern Italy consumed by corruption and decline."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026415R48990475",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "17:45",
+        "API_static_MainTitle": "The Favourite",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Olivia Colman, Emma Stone, Rachel Weisz, Nicholas Hoult, Mark Gatiss, Joe Alwyn",
+        "API_static_Blurb": "The early 18th century; England is fighting the French and a frail, capricious Queen Anne (Olivia Colman) sits on the throne; though due to her poor health she relies on her close friend Lady Sarah (Rachel Weisz) to govern on her behalf. But as the politics of war begin to consume Sarah's time, a new servant Abigail (Emma Stone) steps into the breach; beginning a rapidly burgeoning friendship with the Queen that gives Abigail a chance to restore her social status. Soon the balance of power shifts between the women as they jockey for influence with the Queen and the court..."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10025906R95067731",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "15:25",
         "API_static_MainTitle": "At Eternity's Gate",
         "API_static_LanguageText": "French and English with English subtitles",
         "API_static_Cert": "12A",
@@ -70,43 +80,33 @@
         "API_static_Blurb": "Earning him an Oscar® nomination, Willem Dafoe is mesmerising as Vincent van Gogh in this latest from Julian Schnabel (<i>The Diving Bell and the Butterfly</i>). Covering his time in Arles and Auvers-sur-Oise, we find a complex, troubled soul who is seeking a new visual language, while also struggling to make sense of himself and his connection to those around him, including Paul Gauguin (Oscar Isaac) and a confiding priest (Mads Mikkelsen). Shot with a painter’s eye, Schnabel’s once again shows his talent for working with complex biography and the lives of artists."
     },
     {
-        "API_static_ParentBookingID": "BOO10025913R87592505",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "15:30",
-        "API_static_MainTitle": "Ray & Liz",
+        "API_static_ParentBookingID": "BOO10026419R23537030",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "17:50",
+        "API_static_MainTitle": "The Vanishing",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Ella Smith, Justin Salinger, Tony Way, Richard Ashton, Michelle Bonnard",
-        "API_static_Blurb": "Richard Billingham is perhaps best known for his 1996 photography book <i>Ray's a Laugh</i>, which strikingly documented the lives of his father and mother, living in poverty. He makes his film debut with a deeply personal portrait of the home he grew up in. As his father Ray (Justin Salinger) slips ever-deeper into alcoholism and with the violent melancholy of his mother Liz (Ella Smith) looming over the household, <i>Ray & Liz</i> is both unflinchingly honest and exquisitely composed. Without indulging in sentimentality, it's a film that spans bleak social realism, dark humour and painful irony."
+        "API_static_Cast_Listing": "Gerard Butler, Peter Mullan, Connor Swindells, Søren Malling, Ólafur Darri Ólafsson, Gary Lewis",
+        "API_static_Blurb": "In the year 1900, three men working at a remote lighthouse in the Outer Hebrides went suddenly missing without any sign of struggle. Known now as the 'Flannan Isle Mystery', it's a tale that has intrigued the world for well over 100 years. Kristoffer Nyholm (<i>The Killing</i>, <i>Taboo</i>) directs this gripping, atmospheric dramatisation of what very well could have happened - starring Gerard Butler, Peter Mullan, and Connor Swindells as the three keepers. Tormented by storms, a boat, a body, and a wooden chest, the mystery plays out as greed, paranoia and dark misdeeds take hold..."
     },
     {
-        "API_static_ParentBookingID": "BOO10025916R71216085",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "18:10",
-        "API_static_MainTitle": "Life, Animated",
-        "API_static_LanguageText": "",
+        "API_static_ParentBookingID": "BOO10026422R27615092",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "18:00",
+        "API_static_MainTitle": "Happy As Lazzaro",
+        "API_static_LanguageText": "Italian with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Adriano Tardiolo, Sergi López, Alba Rohrwacher, Luca Chikovani, Nicoletta Braschi",
+        "API_static_Blurb": "Lazzaro (talented newcomer Adriano Tardiolo) is a peasant whose sweet nature makes people mistake him for simple-minded. He happily does the bidding of anyone in his local village, which is ruled over by tobacco baroness Marchesa, and finds an unlikely friend in Marchesa's petulant, spoiled son Tancredi, who convinces his hapless ally to help him stage a dramatic incident. \nWriter-director Alice Rohrwacher delivers a magic-realist fable, rich in exotic beauty and exquisite imagery, that doubles as an origin myth for a modern Italy consumed by corruption and decline."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10024116R33666631",
+        "API_static_DateYMD": "2019-04-06",
+        "API_static_Showtime": "20:20",
+        "API_static_MainTitle": "Casino Royale",
+        "API_static_LanguageText": "English, French, Gaelic, German and Japanese with English subtitles",
         "API_static_Cert": "PG",
-        "API_static_Cast_Listing": "",
-        "API_static_Blurb": "Aged 3, Owen Suskind developed autism and withdrew into silence and distant thoughts. His loving parents struggled tirelessly to reach him - to interact in some meaningful way - but hope was fading. Enter Walt Disney, and a revelation that would change all of their lives. \nYoung Owen was using his beloved Disney animated films to make sense of the world around him, and - as we see in this endearing coming-of-age documentary - this was the breakthrough he needed to reconnect with his family and forge ahead into young adulthood."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024908R16140047",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "14:30",
-        "API_static_MainTitle": "Alien",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Sigourney Weaver, Tom Skerritt, Veronica Cartwright, John Hurt, Harry Dean Stanton, Ian Holm, Yaphet Kotto",
-        "API_static_Blurb": "Director Ridley Scott's breakthrough film, an immensely successful blend of horror and science fiction, is a classic in both genres and has spawned a host of sequels and imitators. <i>Alien</i> centres around the crew of the space cargo ship Nostromo, which lands on a moribund planet in response to a faint SOS. Inside a crashed ship, the crew members come upon strange pods, one of which spews forth a repellently fleshy creature that locks on to the face of the unlucky Kane. Despite Ripley's advice, science officer Ash allows Kane to return to the ship..."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024908R16140047",
-        "API_static_DateYMD": "2019-04-02",
-        "API_static_Showtime": "20:15",
-        "API_static_MainTitle": "Alien",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Sigourney Weaver, Tom Skerritt, Veronica Cartwright, John Hurt, Harry Dean Stanton, Ian Holm, Yaphet Kotto",
-        "API_static_Blurb": "Director Ridley Scott's breakthrough film, an immensely successful blend of horror and science fiction, is a classic in both genres and has spawned a host of sequels and imitators. <i>Alien</i> centres around the crew of the space cargo ship Nostromo, which lands on a moribund planet in response to a faint SOS. Inside a crashed ship, the crew members come upon strange pods, one of which spews forth a repellently fleshy creature that locks on to the face of the unlucky Kane. Despite Ripley's advice, science officer Ash allows Kane to return to the ship..."
+        "API_static_Cast_Listing": "Peter Sellers, Ursula Andress, David Niven, Orson Welles, Joanna Pettet",
+        "API_static_Blurb": "David Niven isn’t the only Bond in perhaps the most glamorous film in the series which features an abduction in a flying saucer... Deborah Kerr, Woody Allen, Peter Sellers and Orson Welles star alongside Niven as Bond attempts to stop the agents of SMERSH in their quest to eliminating MI6 agents. Hallucinogenic and atomic warfare play out on the tables of the casino, accompanied by a dreamy soundtrack from Burt Bacharach and the thrilling vocals of Dusty Springfield.\n"
     }
 ]
