@@ -4,19 +4,9 @@ const refreshRate = 4000;
 let dataSet = null
 let refreshIntervalId
 
-ipcRenderer.on('data-update', (event, data) => {
-  if(refreshIntervalId != null) clearInterval(refreshIntervalId)
-  console.log(data)
- dataSet = data.map(e => {
-   return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
- })
- refreshIntervalId = movieRender(dataSet)
- console.log(dataSet)
-})
-
 Vue.component('movieElement', {
   props: ['movieElem'],
- template: '<li>{{ movieElem }}</li>'
+  template: '<li>{{ movieElem }}</li>'
 })
 
 var app = new Vue({
@@ -30,6 +20,14 @@ var app = new Vue({
   }
 })
 
+ipcRenderer.on('data-update', (event, data) => {
+  if(refreshIntervalId != null) clearInterval(refreshIntervalId)
+  dataSet = data.map(e => {
+    return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
+  })
+  refreshIntervalId = movieRender(dataSet)
+  console.log(dataSet)
+})
 
 function movieRender(data) {
   var index = 0

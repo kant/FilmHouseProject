@@ -29,22 +29,16 @@ class DataManager {
 
   WriteFileByTime(data) {
     return new Promise((resolve, reject) => {
-      console.log(this.mimic)
-      if(this.mimic.length == 0) {
-        this.mimic.push(this.TimeToInt(data.API_static_Showtime))
-        this.api_data.push(data)
-        resolve(this.api_data)
-      }
+      console.log(this.mimic)      
       var lastIndex = this.mimic.length - 1
-      if(this.mimic[lastIndex] > this.TimeToInt(data.API_static_Showtime)) {
+      if(this.mimic.length != 0 && this.mimic[lastIndex] > this.TimeToInt(data.API_static_Showtime)) {
         this.Sort(data, this.TimeToInt(data.API_static_Showtime))
         resolve(this.api_data)
       } else {
-        this.api_data.push(data)
         this.mimic.push(this.TimeToInt(data.API_static_Showtime))
+        this.api_data.push(data)
         resolve(this.api_data)
       }
-      reject(new Error("nik"));
     })
   }
 
@@ -55,7 +49,7 @@ class DataManager {
     while(this.mimic[index] > timeStamp  && index > 0) {
       index--
     }
-    if(index > 0) index++    
+    if(index > 0) index++
     this.InserAt(this.api_data, data, index)
     this.InserAt(this.mimic, timeStamp, index)
   }

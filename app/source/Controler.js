@@ -69,6 +69,7 @@ class Controler {
   }
 
   SendDataToView(view, path) {
+    console.log("sending data to " + view)
     this.getStoredData(path)
     .then(api_data => {
       view.webContents.send('data-update', api_data)
@@ -96,6 +97,8 @@ class Controler {
 
   ClearData() {
     this.fileManager.CleanFile(__dirbase + '/config/result.json')
+    this.dataManager.api_data = []
+    this.dataManager.mimic = []
   }
 }
 

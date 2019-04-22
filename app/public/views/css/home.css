@@ -1,7 +1,3 @@
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-<style>
 body {
   font-family: "Lato", sans-serif;
 }
@@ -52,21 +48,3 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-</style>
-</head>
-<body>
-
-<div class="sidenav">
-  <a href="Movie Listings.html">Screen 1</a>
-  <a href="Slideshow.html">Screen 2</a>
-  <a href="#Settings">Settings</a>
-  <a href="#Log Out">Log Out</a>
-</div>
-
-
-<script>
-  // You can also require other files to run in this process
-  require('../js/second.js')
-</script>
-</body>
-</html>

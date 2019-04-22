@@ -20,3 +20,12 @@ ol.movie-display {
   transition: all 800ms ease-out;
   color: black;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-container > div {
+  margin: 2vh 2vw 2vh 2vw;
+}
