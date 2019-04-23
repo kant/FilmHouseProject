@@ -26,11 +26,9 @@ var app = new Vue({
 console.log(app.movieList)
 
 ipcRenderer.on('data-update', (event, data) => {
-  console.log("pouic")
+  console.log(data)
   dataSet = data.map(e => {
     return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
   })
-  console.log(dataSet)
   app.movieList = dataSet
-  console.log(app.movieList)
 })

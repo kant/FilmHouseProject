@@ -2,7 +2,6 @@ class DataManager {
 
   constructor(configManager) {
     this.apiConfig = configManager.getApiConfig()
-    this.mimic = []
     this.api_data = []
   }
 
@@ -27,34 +26,65 @@ class DataManager {
     .catch(err => { throw err })
   }
 
+  RemoveDouble() {
+    var list = []
+    var indexList = []
+    for(var it of this.api_data) {
+      if(!it.API_static_MainTitle in list) {
+        list.push(it.API_static_MainTitle)
+        indexList.push[this.api_data.indexOf(it)]
+        it.API_static_Showtime = [it.API_static_Showtime]
+      } else {
+        push(it.API_static_Showtime)
+         this.api_data.splice(this.api_data.indexOf(it), 1)
+      }
+    }
+  }
+
   WriteFileByTime(data) {
     return new Promise((resolve, reject) => {
-      console.log(this.mimic)      
-      var lastIndex = this.mimic.length - 1
-      if(this.mimic.length != 0 && this.mimic[lastIndex] > this.TimeToInt(data.API_static_Showtime)) {
-        this.Sort(data, this.TimeToInt(data.API_static_Showtime))
+
+      if(this.api_data.length == 0) {
+        this.api_data.push(data)
+        resolve(this.api_data)
+      }
+
+      var lastIndex = this.api_data.length - 1
+
+      if(this.TimeToInt(data.API_static_Showtime) < this.TimeToInt(this.api_data[lastIndex].API_static_Showtime)) {
+        this.Sort(this.TimeToInt(data.API_static_Showtime), data)
         resolve(this.api_data)
       } else {
-        this.mimic.push(this.TimeToInt(data.API_static_Showtime))
         this.api_data.push(data)
         resolve(this.api_data)
       }
     })
   }
 
-  Sort(data, timeStamp) {
-
-    var index = this.api_data.length - 1
-
-    while(this.mimic[index] > timeStamp  && index > 0) {
-      index--
+  PrintTimeStamps() {
+    process.stdout.write('[')
+    for(var i = 0; i < this.api_data.length; i++) {
+      process.stdout.write(this.api_data[i].API_static_Showtime+', ')
     }
-    if(index > 0) index++
+    process.stdout.write(']\n')
+  }
+
+  Sort(timeStamp, data) {
+
+    console.log(data.API_static_Showtime)
+    this.PrintTimeStamps()
+    var lastIndex = this.api_data.length - 1
+    var index = 0
+
+    while(index < lastIndex && timeStamp > this.TimeToInt(this.api_data[index].API_static_Showtime)) {
+      index++;
+    }
+
     this.InserAt(this.api_data, data, index)
-    this.InserAt(this.mimic, timeStamp, index)
   }
 
   InserAt(collection, data, index) {
+    console.log("Insert: " + data.API_static_Showtime +" at " + index)
     collection.splice(index, 0, data)
   }
 

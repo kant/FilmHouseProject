@@ -72,13 +72,16 @@ class Controler {
     console.log("sending data to " + view)
     this.getStoredData(path)
     .then(api_data => {
-      view.webContents.send('data-update', api_data)
+      view.webContents.on('did-finish-load', () => {
+        view.webContents.send('data-update', api_data)
+      })
     })
     .catch(this.HandleError)
   }
 
   StoreData(data) {
     this.dataManager.WriteFileByTime(data)
+    // this.dataManager.RemoveDouble()
     .then(api_data => {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(api_data, null, 4), this.encoding)
     })
@@ -98,7 +101,6 @@ class Controler {
   ClearData() {
     this.fileManager.CleanFile(__dirbase + '/config/result.json')
     this.dataManager.api_data = []
-    this.dataManager.mimic = []
   }
 }
 

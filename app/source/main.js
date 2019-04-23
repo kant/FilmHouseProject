@@ -49,9 +49,9 @@ ipcMain.on('UpdateScreen1', (event, data) => {
     firstWindow = controler.CreateWindow("First Window", viewsDir + '/movieDisplay.html')
     .on('close', () => {
       firstWindow = null
-    })
+    })    
   }
-  if(firstWindow != null) controler.SendDataToView(firstWindow, __dirbase + '/config/result.json')
+  controler.SendDataToView(firstWindow, __dirbase + '/config/result.json')
 })
 
 ipcMain.on('UpdateScreen2', (event, data) => {
@@ -61,7 +61,7 @@ ipcMain.on('UpdateScreen2', (event, data) => {
       secondWindow = null
     })
   }
-  if(secondWindow != null) controler.SendDataToView(secondWindow, __dirbase + '/config/result.json')
+  controler.SendDataToView(secondWindow, __dirbase + '/config/result.json')
 })
 
 ipcMain.on('FetchData', (evet, data) => {
