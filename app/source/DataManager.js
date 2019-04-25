@@ -70,9 +70,7 @@ class DataManager {
   }
 
   Sort(timeStamp, data) {
-
-    console.log(data.API_static_Showtime)
-    this.PrintTimeStamps()
+        
     var lastIndex = this.api_data.length - 1
     var index = 0
 
@@ -84,7 +82,6 @@ class DataManager {
   }
 
   InserAt(collection, data, index) {
-    console.log("Insert: " + data.API_static_Showtime +" at " + index)
     collection.splice(index, 0, data)
   }
 

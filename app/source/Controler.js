@@ -56,34 +56,31 @@ class Controler {
     })
   }
 
-  MonitorDataForView(view, path) {
-    this.SendDataToView(view, path)
-    if(this.watcher === null) {
-      this.watcher = this.fileManager.MonitorFile(path)
-    }
-    this.watcher
-    .on('change', path =>  {
-      // console.log(`File ${path} has been changed`)
-      this.SendDataToView(view, path)
-    })
-  }
-
-  SendDataToView(view, path) {
-    console.log("sending data to " + view)
-    this.getStoredData(path)
-    .then(api_data => {
-      view.webContents.on('did-finish-load', () => {
-        view.webContents.send('data-update', api_data)
-      })
-    })
-    .catch(this.HandleError)
-  }
-
   StoreData(data) {
     this.dataManager.WriteFileByTime(data)
     // this.dataManager.RemoveDouble()
     .then(api_data => {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(api_data, null, 4), this.encoding)
+    })
+    .catch(this.HandleError)
+  }
+
+  MonitorDataForView(view, path) {
+    if(this.watcher === null) {
+      this.watcher = this.fileManager.MonitorFile(path)
+    }
+    this.watcher.on('change', path =>  {
+      this.SendDataToView(view, path)
+    })
+  }
+
+  SendDataToView(view, path) {
+    console.log("sending data to a view")
+    this.getStoredData(path)
+    .then(api_data => {
+      view.webContents.on('dom-ready', () => {
+        view.webContents.send('data-update', api_data)
+      })
     })
     .catch(this.HandleError)
   }

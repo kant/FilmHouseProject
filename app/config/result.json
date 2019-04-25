@@ -1,8 +1,18 @@
 [
     {
+        "API_static_ParentBookingID": "BOO10026340R75274452",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "13:00",
+        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
+        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+    },
+    {
         "API_static_ParentBookingID": "BOO10026522R85010613",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "12:50",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "13:15",
         "API_static_MainTitle": "The Kindergarten Teacher",
         "API_static_LanguageText": "",
         "API_static_Cert": "12A",
@@ -10,18 +20,8 @@
         "API_static_Blurb": "Maggie Gyllenhaal stars as Lisa Spinelli, a kindergarten teacher and poet fed up with her career, her oblivious husband and teenage kids who largely ignore her. When she discovers that a five-year-old in her class may be a poetic prodigy, she becomes fascinated and deeply invested and tries to protect him from what she sees as neglectful parents. She soon finds herself risking her career and family to nurture his talent. Gyllenhaal turns in a subtly disturbing performance in this intelligent and engrossing remake of Nadav Lapid's 2014 Israeli film of the same name."
     },
     {
-        "API_static_ParentBookingID": "BOO10025504R66506064",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "13:00",
-        "API_static_MainTitle": "Phantom Thread",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Daniel Day-Lewis, Vicky Krieps, Lesley Manville, Sue Clark",
-        "API_static_Blurb": "Set in the glamour of 1950s post-war London, renowned dressmaker Reynolds Woodcock (Daniel Day-Lewis, in his second collaboration with Paul Thomas Anderson) and his sister Cyril (Lesley Manville) are at the centre of British fashion, dressing royalty, movie stars and dames with the distinct style of The House of Woodcock. Women come and go through his life, providing inspiration and companionship, until he comes across Alma (Vicky Krieps), who soon becomes a fixture in his life as his muse and lover. Once controlled and planned, he finds his carefully tailored life disrupted by love..."
-    },
-    {
         "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-23",
+        "API_static_DateYMD": "2019-04-25",
         "API_static_Showtime": "14:15",
         "API_static_MainTitle": "Loro",
         "API_static_LanguageText": "Italian with English subtitles",
@@ -31,78 +31,18 @@
     },
     {
         "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "15:05",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "15:30",
         "API_static_MainTitle": "The Sisters Brothers",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
         "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024915R40523281",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "15:45",
-        "API_static_MainTitle": "Ex Machina",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Domhnall Gleeson, Oscar Isaac, Alicia Vikander, Chelsea Li, Corey Johnson",
-        "API_static_Blurb": "Alex Garland, writer of <i>28 Days Later</i> and <i>Sunshine</i>, makes his directorial debut with this stylish and cerebral thriller. \nCaleb Smith (Domhnall Gleeson), a programmer at an internet search giant, wins a competition to spend a week at the private mountain estate of the company's brilliant and reclusive CEO, Nathan Bateman (Oscar Isaac). Upon his arrival, Caleb learns that he has been chosen to evaluate the capabilities, and ultimately the consciousness, of Nathan's latest experiment in artificial intelligence. That experiment is Ava (Alicia Vikander), a breathtaking A.I. whose emotional intelligence proves more sophisticated – and more deceptive – than the two men could have imagined."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024915R40523281",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "17:45",
-        "API_static_MainTitle": "Ex Machina",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Domhnall Gleeson, Oscar Isaac, Alicia Vikander, Chelsea Li, Corey Johnson",
-        "API_static_Blurb": "Alex Garland, writer of <i>28 Days Later</i> and <i>Sunshine</i>, makes his directorial debut with this stylish and cerebral thriller. \nCaleb Smith (Domhnall Gleeson), a programmer at an internet search giant, wins a competition to spend a week at the private mountain estate of the company's brilliant and reclusive CEO, Nathan Bateman (Oscar Isaac). Upon his arrival, Caleb learns that he has been chosen to evaluate the capabilities, and ultimately the consciousness, of Nathan's latest experiment in artificial intelligence. That experiment is Ava (Alicia Vikander), a breathtaking A.I. whose emotional intelligence proves more sophisticated – and more deceptive – than the two men could have imagined."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "18:00",
-        "API_static_MainTitle": "The Sisters Brothers",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025546R38417784",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "18:15",
-        "API_static_MainTitle": "Rafiki",
-        "API_static_LanguageText": "Swahili",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Samantha Mugatsia, Neville Misati, Nice Githinji, Charlie Karumi, Muthoni Gathecha",
-        "API_static_Blurb": "Bursting with the colourful street style and music of Nairobi's vibrant youth culture, <i>Rafiki</i> follows the development of love between two young women. Set in in a country that still criminalises homosexuality, the two very different girls must choose between love and safety surrounded by insular gossip, local politics and burgeoning maturity. Their magnetic pull draws us into a queer Romeo and Juliet, as they try to hide their relationship from their politically opposed fathers. <i>Rafiki</i> was the first Kenyan film to be included in the Un Certain Regard section in Cannes earlier this year, and was then controversially banned from being shown in Kenya by the Kenya Film Classification Board.  "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "20:10",
-        "API_static_MainTitle": "Loro",
-        "API_static_LanguageText": "Italian with English subtitles",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
-        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "20:10",
-        "API_static_MainTitle": "Loro",
-        "API_static_LanguageText": "Italian with English subtitles",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
-        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
     },
     {
         "API_static_ParentBookingID": "BOO10026522R85010613",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "20:30",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "15:40",
         "API_static_MainTitle": "The Kindergarten Teacher",
         "API_static_LanguageText": "",
         "API_static_Cert": "12A",
@@ -111,12 +51,72 @@
     },
     {
         "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-23",
-        "API_static_Showtime": "20:40",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "17:30",
         "API_static_MainTitle": "The Sisters Brothers",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
         "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026461R81794467",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "18:00",
+        "API_static_MainTitle": "Mothers' Instinct",
+        "API_static_LanguageText": "French with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Veerle Baetens, Anne Coesens, Mehdi Nebbou ",
+        "API_static_Blurb": "There are echoes of Hitchcock and Patricia Highsmith in this luscious, devilishly entertaining Belgian thriller. Suburban neighbours Alice (Veerle Baetens) and Celine (Anne Coesens) are the very best of friends. Their inseparable sons are more like brothers than chums. When tragedy strikes, they both struggle to accept the consequences. A once happy relationship is infected with suspicion, paranoia and resentment. Are their responses a natural reaction to trauma, or is there something more sinister afoot? The suspense of finding out will take you to the edge of your seat... "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026461R81794467",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "18:00",
+        "API_static_MainTitle": "Mothers' Instinct",
+        "API_static_LanguageText": "French with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Veerle Baetens, Anne Coesens, Mehdi Nebbou ",
+        "API_static_Blurb": "There are echoes of Hitchcock and Patricia Highsmith in this luscious, devilishly entertaining Belgian thriller. Suburban neighbours Alice (Veerle Baetens) and Celine (Anne Coesens) are the very best of friends. Their inseparable sons are more like brothers than chums. When tragedy strikes, they both struggle to accept the consequences. A once happy relationship is infected with suspicion, paranoia and resentment. Are their responses a natural reaction to trauma, or is there something more sinister afoot? The suspense of finding out will take you to the edge of your seat... "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026522R85010613",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "18:15",
+        "API_static_MainTitle": "The Kindergarten Teacher",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Maggie Gyllenhaal, Gael García Bernal, Parker Sevak, Ato Blankson-Wood, Libya Pugh",
+        "API_static_Blurb": "Maggie Gyllenhaal stars as Lisa Spinelli, a kindergarten teacher and poet fed up with her career, her oblivious husband and teenage kids who largely ignore her. When she discovers that a five-year-old in her class may be a poetic prodigy, she becomes fascinated and deeply invested and tries to protect him from what she sees as neglectful parents. She soon finds herself risking her career and family to nurture his talent. Gyllenhaal turns in a subtly disturbing performance in this intelligent and engrossing remake of Nadav Lapid's 2014 Israeli film of the same name."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026436R57224224",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "20:10",
+        "API_static_MainTitle": "Loro",
+        "API_static_LanguageText": "Italian with English subtitles",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
+        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026340R75274452",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "20:25",
+        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
+        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10025546R38417784",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "20:30",
+        "API_static_MainTitle": "Rafiki",
+        "API_static_LanguageText": "Swahili",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Samantha Mugatsia, Neville Misati, Nice Githinji, Charlie Karumi, Muthoni Gathecha",
+        "API_static_Blurb": "Bursting with the colourful street style and music of Nairobi's vibrant youth culture, <i>Rafiki</i> follows the development of love between two young women. Set in in a country that still criminalises homosexuality, the two very different girls must choose between love and safety surrounded by insular gossip, local politics and burgeoning maturity. Their magnetic pull draws us into a queer Romeo and Juliet, as they try to hide their relationship from their politically opposed fathers. <i>Rafiki</i> was the first Kenyan film to be included in the Un Certain Regard section in Cannes earlier this year, and was then controversially banned from being shown in Kenya by the Kenya Film Classification Board.  "
     }
 ]

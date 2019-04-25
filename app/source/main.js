@@ -49,7 +49,7 @@ ipcMain.on('UpdateScreen1', (event, data) => {
     firstWindow = controler.CreateWindow("First Window", viewsDir + '/movieDisplay.html')
     .on('close', () => {
       firstWindow = null
-    })    
+    })
   }
   controler.SendDataToView(firstWindow, __dirbase + '/config/result.json')
 })
