@@ -10,16 +10,6 @@
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
     },
     {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "13:00",
-        "API_static_MainTitle": "The Sisters Brothers",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
         "API_static_ParentBookingID": "BOO10026522R85010613",
         "API_static_DateYMD": "2019-04-25",
         "API_static_Showtime": "13:15",
@@ -93,7 +83,17 @@
         "API_static_ParentBookingID": "BOO10026436R57224224",
         "API_static_DateYMD": "2019-04-25",
         "API_static_Showtime": "20:10",
-        "API_static_MainTitle": "Test",
+        "API_static_MainTitle": "Loro",
+        "API_static_LanguageText": "Italian with English subtitles",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
+        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026436R57224224",
+        "API_static_DateYMD": "2019-04-25",
+        "API_static_Showtime": "20:10",
+        "API_static_MainTitle": "Loro",
         "API_static_LanguageText": "Italian with English subtitles",
         "API_static_Cert": "18",
         "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",

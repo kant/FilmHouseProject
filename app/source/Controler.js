@@ -78,9 +78,10 @@ class Controler {
     console.log("sending data to a view")
     this.getStoredData(path)
     .then(api_data => {
-      // view.webContents.on('dom-ready', () => {
+      view.webContents.once('dom-ready', () => {
         view.webContents.send('data-update', api_data)
-      // })
+      })
+      view.webContents.send('data-update', api_data)
     })
     .catch(this.HandleError)
   }
@@ -91,7 +92,7 @@ class Controler {
       return JSON.parse(api_data)
     })
     .catch(err => {
-      // return Promise.reject(new Error("there was a problem with the JSON parsing"));
+      return Promise.reject(new Error("there was a problem with the JSON parsing"));
       console.log("There was a problem with the JSON parsing")
     })
   }
