@@ -51,7 +51,7 @@ ipcMain.on('UpdateScreen1', (event, data) => {
       firstWindow = null
     })
   }
-  controler.SendDataToView(firstWindow, __dirbase + '/config/result.json')
+  controler.MonitorDataForView(firstWindow, __dirbase + '/config/result.json')
 })
 
 ipcMain.on('UpdateScreen2', (event, data) => {
@@ -61,7 +61,7 @@ ipcMain.on('UpdateScreen2', (event, data) => {
       secondWindow = null
     })
   }
-  controler.SendDataToView(secondWindow, __dirbase + '/config/result.json')
+  controler.MonitorDataForView(secondWindow, __dirbase + '/config/result.json')
 })
 
 ipcMain.on('FetchData', (evet, data) => {
