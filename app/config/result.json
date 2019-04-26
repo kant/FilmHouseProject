@@ -1,8 +1,38 @@
 [
     {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-25",
+        "API_static_ParentBookingID": "BOO10026442R89564134",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "12:45",
+        "API_static_MainTitle": "Ash Is Purest White",
+        "API_static_LanguageText": "Chinese with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
+        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026441R77144175",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "12:50",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-26",
         "API_static_Showtime": "13:00",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026340R75274452",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "15:05",
         "API_static_MainTitle": "The Sisters Brothers",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
@@ -10,113 +40,93 @@
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
     },
     {
-        "API_static_ParentBookingID": "BOO10026522R85010613",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "13:15",
-        "API_static_MainTitle": "The Kindergarten Teacher",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Maggie Gyllenhaal, Gael García Bernal, Parker Sevak, Ato Blankson-Wood, Libya Pugh",
-        "API_static_Blurb": "Maggie Gyllenhaal stars as Lisa Spinelli, a kindergarten teacher and poet fed up with her career, her oblivious husband and teenage kids who largely ignore her. When she discovers that a five-year-old in her class may be a poetic prodigy, she becomes fascinated and deeply invested and tries to protect him from what she sees as neglectful parents. She soon finds herself risking her career and family to nurture his talent. Gyllenhaal turns in a subtly disturbing performance in this intelligent and engrossing remake of Nadav Lapid's 2014 Israeli film of the same name."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "14:15",
-        "API_static_MainTitle": "Loro",
-        "API_static_LanguageText": "Italian with English subtitles",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
-        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-25",
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-26",
         "API_static_Showtime": "15:30",
-        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_MainTitle": "Wild Rose",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
     },
     {
-        "API_static_ParentBookingID": "BOO10026522R85010613",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "15:40",
-        "API_static_MainTitle": "The Kindergarten Teacher",
-        "API_static_LanguageText": "",
+        "API_static_ParentBookingID": "BOO10026441R77144175",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "15:50",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
         "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Maggie Gyllenhaal, Gael García Bernal, Parker Sevak, Ato Blankson-Wood, Libya Pugh",
-        "API_static_Blurb": "Maggie Gyllenhaal stars as Lisa Spinelli, a kindergarten teacher and poet fed up with her career, her oblivious husband and teenage kids who largely ignore her. When she discovers that a five-year-old in her class may be a poetic prodigy, she becomes fascinated and deeply invested and tries to protect him from what she sees as neglectful parents. She soon finds herself risking her career and family to nurture his talent. Gyllenhaal turns in a subtly disturbing performance in this intelligent and engrossing remake of Nadav Lapid's 2014 Israeli film of the same name."
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
     },
     {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "17:30",
-        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_ParentBookingID": "BOO10026257R77855402",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "17:45",
+        "API_static_MainTitle": "Walk Me Home",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+        "API_static_Cast_Listing": "Angela Winkler, John Berger, Norman Maclean",
+        "API_static_Blurb": "After <i>Play Me Something</i>, Timothy Neat collaborated again with John Berger on <i>Walk Me Home</i>, a film that has not been seen in Edinburgh since 1993, which will screen here from a newly digitized version. Shot in Hamburg and Inchkenneth, and starring Berger with an appearance from the late, great Norman Maclean, <i>Walk Me Home</i> is about love, imagination and comradeship, serving here as a timely celebration of Scotland’s connections with Europe.  \n"
     },
     {
-        "API_static_ParentBookingID": "BOO10026461R81794467",
-        "API_static_DateYMD": "2019-04-25",
+        "API_static_ParentBookingID": "BOO10026257R77855402",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "17:45",
+        "API_static_MainTitle": "Walk Me Home",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Angela Winkler, John Berger, Norman Maclean",
+        "API_static_Blurb": "After <i>Play Me Something</i>, Timothy Neat collaborated again with John Berger on <i>Walk Me Home</i>, a film that has not been seen in Edinburgh since 1993, which will screen here from a newly digitized version. Shot in Hamburg and Inchkenneth, and starring Berger with an appearance from the late, great Norman Maclean, <i>Walk Me Home</i> is about love, imagination and comradeship, serving here as a timely celebration of Scotland’s connections with Europe.  \n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026441R77144175",
+        "API_static_DateYMD": "2019-04-26",
         "API_static_Showtime": "18:00",
-        "API_static_MainTitle": "Mothers' Instinct",
-        "API_static_LanguageText": "French with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Veerle Baetens, Anne Coesens, Mehdi Nebbou ",
-        "API_static_Blurb": "There are echoes of Hitchcock and Patricia Highsmith in this luscious, devilishly entertaining Belgian thriller. Suburban neighbours Alice (Veerle Baetens) and Celine (Anne Coesens) are the very best of friends. Their inseparable sons are more like brothers than chums. When tragedy strikes, they both struggle to accept the consequences. A once happy relationship is infected with suspicion, paranoia and resentment. Are their responses a natural reaction to trauma, or is there something more sinister afoot? The suspense of finding out will take you to the edge of your seat... "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026522R85010613",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "18:15",
-        "API_static_MainTitle": "The Kindergarten Teacher",
-        "API_static_LanguageText": "",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
         "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Maggie Gyllenhaal, Gael García Bernal, Parker Sevak, Ato Blankson-Wood, Libya Pugh",
-        "API_static_Blurb": "Maggie Gyllenhaal stars as Lisa Spinelli, a kindergarten teacher and poet fed up with her career, her oblivious husband and teenage kids who largely ignore her. When she discovers that a five-year-old in her class may be a poetic prodigy, she becomes fascinated and deeply invested and tries to protect him from what she sees as neglectful parents. She soon finds herself risking her career and family to nurture his talent. Gyllenhaal turns in a subtly disturbing performance in this intelligent and engrossing remake of Nadav Lapid's 2014 Israeli film of the same name."
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
     },
     {
-        "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "20:10",
-        "API_static_MainTitle": "Loro",
-        "API_static_LanguageText": "Italian with English subtitles",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
-        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "18:15",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
     },
     {
-        "API_static_ParentBookingID": "BOO10026436R57224224",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "20:10",
-        "API_static_MainTitle": "Loro",
-        "API_static_LanguageText": "Italian with English subtitles",
-        "API_static_Cert": "18",
-        "API_static_Cast_Listing": "Toni Servillo, Elena Sofia Ricci, Riccardo Scamarcio, Kasia Smutniak, Euridice Axen",
-        "API_static_Blurb": "Master filmmaker Paolo Sorrentino (<i>Youth</i>, <i>The Great Beauty</i>) turns his eye once again on Italian politics with <i>Loro</i>, a sensational and scandalous look at the unseen private life of Italy’s billionaire former Prime Minister, Silvio Berlusconi. Played with unmistakable panache by longtime collaborator Toni Servillo, Berlusconi's complex personality and motivations are explored during a tumultuous period in his career, as his marriage to second wife Veronica Lario (Elena Sofia Ricci) fractures, and a wide variety of characters from multiple levels of society attempt to either ingratiate or distance themselves from him... "
+        "API_static_ParentBookingID": "BOO10026442R89564134",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "20:15",
+        "API_static_MainTitle": "Ash Is Purest White",
+        "API_static_LanguageText": "Chinese with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
+        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "20:30",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
     },
     {
         "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "20:25",
+        "API_static_DateYMD": "2019-04-26",
+        "API_static_Showtime": "20:35",
         "API_static_MainTitle": "The Sisters Brothers",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
         "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10025546R38417784",
-        "API_static_DateYMD": "2019-04-25",
-        "API_static_Showtime": "20:30",
-        "API_static_MainTitle": "Rafiki",
-        "API_static_LanguageText": "Swahili",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Samantha Mugatsia, Neville Misati, Nice Githinji, Charlie Karumi, Muthoni Gathecha",
-        "API_static_Blurb": "Bursting with the colourful street style and music of Nairobi's vibrant youth culture, <i>Rafiki</i> follows the development of love between two young women. Set in in a country that still criminalises homosexuality, the two very different girls must choose between love and safety surrounded by insular gossip, local politics and burgeoning maturity. Their magnetic pull draws us into a queer Romeo and Juliet, as they try to hide their relationship from their politically opposed fathers. <i>Rafiki</i> was the first Kenyan film to be included in the Un Certain Regard section in Cannes earlier this year, and was then controversially banned from being shown in Kenya by the Kenya Film Classification Board.  "
     }
 ]

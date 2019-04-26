@@ -19,6 +19,7 @@ class FileManager {
   WriteFile(path, data, encoding) {
     fileSystem.writeFile(path, data, encoding, (err) => {
       if(err) throw err
+      console.log("finished writting")
     })
   }
 
@@ -28,10 +29,10 @@ class FileManager {
     })
   }
 
-  MonitorFile(path) {    
+  MonitorFile(path) {
     return chokidar.watch(path, {
       ignored: /(^|[\/\\])\../,
-      persistent: true
+      persistent: true,      
     });
   }
 }
