@@ -57,10 +57,10 @@ class Controler {
   }
 
   StoreData(data) {
-    this.dataManager.WriteFileByTime(data)
+    return this.dataManager.WriteFileByTime(data)
     .then(api_data => {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(api_data, null, 4), this.encoding)
-    })
+    })    
     .catch(this.HandleError)
   }
 

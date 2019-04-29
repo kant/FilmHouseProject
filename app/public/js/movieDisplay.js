@@ -17,6 +17,7 @@ Vue.component('movie-element', {
   <div class="grid-element">
     <span>{{ movie.title }}</span>
     <span>{{ movie.showTime }}</span>
+    <span>{{ movie.cert }}</span>
   </div>
   `
 })
@@ -25,7 +26,7 @@ var app = new Vue({
   el: '#app',
   data: {
     movieList : [
-      { title : 'None', showTime: 'None' }
+      { title : 'None', showTime: 'None', cert:"None"}
     ]
   }
 })
@@ -33,7 +34,7 @@ var app = new Vue({
 ipcRenderer.on('data-update', (event, payload) => {
   console.log(payload)
   dataSet = payload.map(e => {
-    return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
+    return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime, cert: e.API_static_Cert}
   })
   app.movieList = dataSet
 })

@@ -1,7 +1,13 @@
 const fileSystem = require('fs')
 const chokidar = require('chokidar');
+const mutexify = require('mutexify')
 
 class FileManager {
+
+
+  constructor(){
+    this.lock = mutexify()
+  }
 
   ReadFile(path, encoding) {
     return new Promise((resolve, reject) => {
@@ -12,12 +18,16 @@ class FileManager {
     })
   }
 
-  WriteFile(path, data, encoding) {
-    fileSystem.writeFile(path, data, encoding, (err) => {
-      if(err) throw err
-      console.log("finished writting")
+  WriteFile(path, data) {
+    this.lock(function(release) {
+      console.log("Locked")
+      fileSystem.writeFile(path, data, () => {
+        console.log("Unlocked")
+        release()        
+      })
     })
   }
+
 
   CleanFile(path) {
     fileSystem.writeFile(path, '', (err) => {
