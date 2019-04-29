@@ -3,6 +3,10 @@ class DataManager {
   constructor(configManager) {
     this.apiConfig = configManager.getApiConfig()
     this.api_data = []
+    this.indexObj = {
+      index: 0,
+      titleList: []
+    }
   }
 
   JsonCleaning(name, data) {
@@ -15,7 +19,7 @@ class DataManager {
           for (var field of api.api_list[i].data.fields) {
             for(var j = 0; j < data.length; j++) {
               if(res[j] == null) res[j] = {}
-              if (data[j][field] != null) res[j][field] = data[j][field]
+              if(data[j][field] != null) res[j][field] = data[j][field]
             }
           }
           return res
@@ -26,74 +30,51 @@ class DataManager {
     .catch(err => { throw err })
   }
 
-  RemoveDouble() {
-    var list = []
-    var indexList = []
-    for(var it of this.api_data) {
-      if(!it.API_static_MainTitle in list) {
-        list.push(it.API_static_MainTitle)
-        indexList.push[this.api_data.indexOf(it)]
-        it.API_static_Showtime = [it.API_static_Showtime]
-      } else {
-        push(it.API_static_Showtime)
-         this.api_data.splice(this.api_data.indexOf(it), 1)
-      }
+  //Check if the movie already is in api_data and if yes add is Showtime to this already existing entry and sort it
+  CheckForDouble(data) {
+    if(this.indexObj.titleList.indexOf(data.API_static_MainTitle) == -1) {
+      this.indexObj.titleList.push(data.API_static_MainTitle)
+      this.indexObj[data.API_static_MainTitle] = this.indexObj.index
+      data.API_static_Showtime = [data.API_static_Showtime]
+      this.indexObj.index += 1
+      return data
+    } else {
+      this.api_data[this.indexObj[data.API_static_MainTitle]].API_static_Showtime.push(data.API_static_Showtime)
+      this.api_data[this.indexObj[data.API_static_MainTitle]].API_static_Showtime.sort((a, b) => {
+        return(this.TimeToInt(a) - this.TimeToInt(b))
+      })
+      return false
     }
   }
 
   WriteFileByTime(data) {
     return new Promise((resolve, reject) => {
-
-      if(this.api_data.length == 0) {
-        this.api_data.push(data)
-        resolve(this.api_data)
-      }
-
-      var lastIndex = this.api_data.length - 1
-
-      if(this.TimeToInt(data.API_static_Showtime) < this.TimeToInt(this.api_data[lastIndex].API_static_Showtime)) {
-        this.Sort(this.TimeToInt(data.API_static_Showtime), data)
-        resolve(this.api_data)
-      } else {
-        this.api_data.push(data)
-        resolve(this.api_data)
-      }
+      this.api_data.push(data)
+      this.api_data.sort((obj1, obj2) => {
+        return(this.TimeToInt(obj1.API_static_Showtime) - this.TimeToInt(obj2.API_static_Showtime))
+      })
+      resolve(this.api_data)
     })
-  }
-
-  PrintTimeStamps() {
-    process.stdout.write('[')
-    for(var i = 0; i < this.api_data.length; i++) {
-      process.stdout.write(this.api_data[i].API_static_Showtime+', ')
-    }
-    process.stdout.write(']\n')
-  }
-
-  Sort(timeStamp, data) {
-        
-    var lastIndex = this.api_data.length - 1
-    var index = 0
-
-    while(index < lastIndex && timeStamp > this.TimeToInt(this.api_data[index].API_static_Showtime)) {
-      index++;
-    }
-
-    this.InserAt(this.api_data, data, index)
-  }
-
-  InserAt(collection, data, index) {
-    collection.splice(index, 0, data)
   }
 
   TimeToInt(time) {
     var timeStamp = 0
     var split = time.split(':').reverse()
     var curr = Math.pow(60, split.length)
+
     while(split.length > 0) {
       timeStamp += curr * parseInt(split.pop(), 10)
       curr /= 60
     }
     return timeStamp
+  }
+
+  ClearData() {
+    this.api_data = []
+    this.indexObj = {
+      index: 0,
+      titleList: []
+    }
   }
 
   getApiData() {

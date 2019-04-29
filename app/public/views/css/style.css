@@ -29,3 +29,7 @@ ol.movie-display {
 .grid-container > div {
   margin: 2vh 2vw 2vh 2vw;
 }
+
+.grid-element > * {
+  display: block;
+}

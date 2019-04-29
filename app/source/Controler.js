@@ -38,6 +38,7 @@ class Controler {
     throw err
   }
 
+  //Get the data movie by movie
   getApiData() {
     return this.apiManager.RequestApi("slots")
     .then(JSON.parse)
@@ -57,7 +58,6 @@ class Controler {
 
   StoreData(data) {
     this.dataManager.WriteFileByTime(data)
-    // this.dataManager.RemoveDouble()
     .then(api_data => {
       this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(api_data, null, 4), this.encoding)
     })
@@ -91,14 +91,14 @@ class Controler {
       return JSON.parse(api_data)
     })
     .catch(err => {
-      return Promise.reject(new Error("there was a problem with the JSON parsing"));
+      // return Promise.reject(new Error("there was a problem with the JSON parsing"));
       console.log("There was a problem with the JSON parsing")
     })
   }
 
   ClearData() {
     this.fileManager.CleanFile(__dirbase + '/config/result.json')
-    this.dataManager.api_data = []
+    this.dataManager.ClearData()
   }
 }
 

@@ -10,7 +10,7 @@
   <body>
     <div id="app">
       <div class="grid-container movie-display">
-        <grid-element v-for="elem in movieList" v-bind:movie-elem="elem"></grid-element>
+        <movie-element v-for="movie in movieList" v-bind:movie="movie"></movie-element>        
       </div>
     </div>
   </body>

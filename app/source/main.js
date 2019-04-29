@@ -44,6 +44,9 @@ app.on('activate', function () {
 
 //MAIN
 
+controler.ClearData()
+controler.getApiData()
+
 ipcMain.on('UpdateScreen1', (event, data) => {
   if(firstWindow == null) {
     firstWindow = controler.CreateWindow("First Window", viewsDir + '/movieDisplay.html')

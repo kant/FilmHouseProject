@@ -1,108 +1,28 @@
 [
     {
-        "API_static_ParentBookingID": "BOO10026442R89564134",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "12:45",
-        "API_static_MainTitle": "Ash Is Purest White",
-        "API_static_LanguageText": "Chinese with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
-        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
+        "API_static_ParentBookingID": "BOO10026448R61571486",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "11:00",
+        "API_static_MainTitle": "Wild Rose (Baby + Carer)",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "",
+        "API_static_Cast_Listing": "",
+        "API_static_Blurb": "\n\n\n"
     },
     {
-        "API_static_ParentBookingID": "BOO10026441R77144175",
-        "API_static_DateYMD": "2019-04-26",
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "12:35",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026442R89564134",
+        "API_static_DateYMD": "2019-04-29",
         "API_static_Showtime": "12:50",
-        "API_static_MainTitle": "Styx",
-        "API_static_LanguageText": "English and German with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
-        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "13:00",
-        "API_static_MainTitle": "Wild Rose",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
-        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "15:05",
-        "API_static_MainTitle": "The Sisters Brothers",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "15:30",
-        "API_static_MainTitle": "Wild Rose",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
-        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026441R77144175",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "15:50",
-        "API_static_MainTitle": "Styx",
-        "API_static_LanguageText": "English and German with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
-        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026257R77855402",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "17:45",
-        "API_static_MainTitle": "Walk Me Home",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Angela Winkler, John Berger, Norman Maclean",
-        "API_static_Blurb": "After <i>Play Me Something</i>, Timothy Neat collaborated again with John Berger on <i>Walk Me Home</i>, a film that has not been seen in Edinburgh since 1993, which will screen here from a newly digitized version. Shot in Hamburg and Inchkenneth, and starring Berger with an appearance from the late, great Norman Maclean, <i>Walk Me Home</i> is about love, imagination and comradeship, serving here as a timely celebration of Scotland’s connections with Europe.  \n"
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026257R77855402",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "17:45",
-        "API_static_MainTitle": "Walk Me Home",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Angela Winkler, John Berger, Norman Maclean",
-        "API_static_Blurb": "After <i>Play Me Something</i>, Timothy Neat collaborated again with John Berger on <i>Walk Me Home</i>, a film that has not been seen in Edinburgh since 1993, which will screen here from a newly digitized version. Shot in Hamburg and Inchkenneth, and starring Berger with an appearance from the late, great Norman Maclean, <i>Walk Me Home</i> is about love, imagination and comradeship, serving here as a timely celebration of Scotland’s connections with Europe.  \n"
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026441R77144175",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "18:00",
-        "API_static_MainTitle": "Styx",
-        "API_static_LanguageText": "English and German with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
-        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "18:15",
-        "API_static_MainTitle": "Wild Rose",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
-        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026442R89564134",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "20:15",
         "API_static_MainTitle": "Ash Is Purest White",
         "API_static_LanguageText": "Chinese with English subtitles",
         "API_static_Cert": "15",
@@ -111,8 +31,8 @@
     },
     {
         "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "20:30",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "14:30",
         "API_static_MainTitle": "Wild Rose",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
@@ -121,12 +41,82 @@
     },
     {
         "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-26",
-        "API_static_Showtime": "20:35",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "14:50",
         "API_static_MainTitle": "The Sisters Brothers",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
         "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
         "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026441R77144175",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "16:00",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026460R78364557",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "17:50",
+        "API_static_MainTitle": "The Merger",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Damian Callinan, Kate Mulvany, Rafferty Grierson",
+        "API_static_Blurb": "It’s time to cheer the underdog in this rambunctious, heartwarming David and Goliath comedy from Australia. The screen adaptation of Damian Callinan’s stage hit finds former football star Troy Carrington (Damian Callinan) trying to revive the fortunes of his football club in the tiny township of Bodgy Creek. Times are hard, jobs are scarce and civic pride is all they have left. Troy decides to seek out the undiscovered talent at the local refugee support centre. His fight against ingrained prejudices and bitter opposition fuels a winning tale of rebirth, romance and redemption.\n\n\n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026340R75274452",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "18:00",
+        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
+        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026441R77144175",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "18:10",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026263R76379311",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "20:15",
+        "API_static_MainTitle": "The Decameron",
+        "API_static_LanguageText": "Italian and Neapolitan with English subtitles",
+        "API_static_Cert": "18",
+        "API_static_Cast_Listing": "Franco Citti, Ninetto Davoli, Vincenzo Amato, Angela Luce, Pier Paolo Pasolini",
+        "API_static_Blurb": "The first in Pasolini’s Trilogy of Life, Pasolini’s <i>The Decameron</i> weaves together a handful of tales by Giovanni Boccaccio into a dizzying, rhapsodic and bawdy celebration of humanity in all its contradiction and complexity. At turns erotic and playfully irreverent, <i>The Decameron</i> tells the story of thieves, nuns, dimwitted husbands, murderers, martyrs and saints with verve, humour and Pasolini’s incomparable sense of cinematic poetry.\n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026442R89564134",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "20:20",
+        "API_static_MainTitle": "Ash Is Purest White",
+        "API_static_LanguageText": "Chinese with English subtitles",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
+        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-04-29",
+        "API_static_Showtime": "20:40",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
     }
 ]

@@ -2,28 +2,33 @@ const { ipcRenderer } = require('electron');
 
 let dataSet = null
 
-Vue.component('gridElement', {
-  props: ['movieElem'],
-  template: `
-  <div>
-    <div>{{ movieElem.title }}</div>
-    <div>{{ movieElem.showTime }}</div>
-  </div>
+Vue.component('show-times', {
+  props: ['time'],
+  template:`
+  <ul>
+    <li> {{ time }} </li>
+  </ul>
   `
 })
 
+Vue.component('movie-element', {
+  props: ['movie'],
+  template: `
+  <div class="grid-element">
+    <span>{{ movie.title }}</span>
+    <span>{{ movie.showTime }}</span>
+  </div>
+  `
+})
 
 var app = new Vue({
   el: '#app',
   data: {
     movieList : [
-      { title : 'None', showTime: 'None' },
       { title : 'None', showTime: 'None' }
     ]
   }
 })
-
-console.log(app.movieList)
 
 ipcRenderer.on('data-update', (event, data) => {
   console.log(data)

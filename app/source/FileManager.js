@@ -3,10 +3,6 @@ const chokidar = require('chokidar');
 
 class FileManager {
 
-  constructor() {
-    this.api_data = []
-  }
-
   ReadFile(path, encoding) {
     return new Promise((resolve, reject) => {
       return fileSystem.readFile(path, encoding, (err, data) => {
@@ -32,7 +28,7 @@ class FileManager {
   MonitorFile(path) {
     return chokidar.watch(path, {
       ignored: /(^|[\/\\])\../,
-      persistent: true,      
+      persistent: true,
     });
   }
 }
