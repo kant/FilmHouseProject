@@ -3,10 +3,6 @@ class DataManager {
   constructor(configManager) {
     this.apiConfig = configManager.getApiConfig()
     this.api_data = []
-    this.indexObj = {
-      index: 0,
-      titleList: []
-    }
   }
 
   JsonCleaning(name, data) {
@@ -71,10 +67,6 @@ class DataManager {
 
   ClearData() {
     this.api_data = []
-    this.indexObj = {
-      index: 0,
-      titleList: []
-    }
   }
 
   getApiData() {

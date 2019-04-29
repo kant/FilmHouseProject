@@ -73,10 +73,13 @@ class Controler {
     })
   }
 
-  SendDataToView(view, path) {
-    console.log("sending data to a view")
+  SendDataToView(view, path, option) {
     this.getStoredData(path)
     .then(api_data => {
+
+      if(api_data == null) api_data = []
+      if(option != null) api_data = api_data = { option: option, data: api_data }
+
       view.webContents.once('dom-ready', () => {
         view.webContents.send('data-update', api_data)
       })
@@ -91,7 +94,8 @@ class Controler {
       return JSON.parse(api_data)
     })
     .catch(err => {
-      // return Promise.reject(new Error("there was a problem with the JSON parsing"));
+
+      this.fileManager.WriteFile(__dirbase + '/config/result.json', JSON.stringify(this.dataManager.api_data, null, 4), this.encoding)
       console.log("There was a problem with the JSON parsing")
     })
   }

@@ -1,6 +1,6 @@
 const { ipcRenderer } = require('electron');
 
-const refreshRate = 5000;
+let refreshRate = 5000;
 let dataSet = null
 let refreshIntervalId
 
@@ -20,13 +20,14 @@ var app = new Vue({
   }
 })
 
-ipcRenderer.on('data-update', (event, data) => {
+ipcRenderer.on('data-update', (event, payload) => {
+  console.log(payload)
   if(refreshIntervalId != null) clearInterval(refreshIntervalId)
-  dataSet = data.map(e => {
+  dataSet = payload.data.map(e => {
     return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
   })
   refreshIntervalId = movieRender(dataSet)
-  console.log(dataSet)
+  refreshRate = payload.option.refreshRate  
 })
 
 function movieRender(data) {
@@ -36,8 +37,8 @@ function movieRender(data) {
     index++
     if(index >= data.length) index = 0;
     toggleShow()
-    setTimeout(() => { toggleShow() }, refreshRate*0.25);    
-  }, refreshRate);
+    setTimeout(() => { toggleShow() }, refreshRate*0.10);
+  }, refreshRate + refreshRate*0.10);
 }
 
 function toggleShow() {

@@ -7,7 +7,7 @@ document.getElementById('UpdateScreen1').addEventListener('click', () => {
 
 document.getElementById('UpdateScreen2').addEventListener('click', () => {
   console.log('UpdateScreen2')
-  ipcRenderer.send('UpdateScreen2', app.options)
+  ipcRenderer.send('UpdateScreen2', app.option)
 })
 
 document.getElementById('FetchData').addEventListener('click', () => {
@@ -31,7 +31,7 @@ Vue.component('option-panel', {
 var app = new Vue({
   el: '#app',
   data: {
-    options: {
+    option: {
       refreshRate : 5000,
     }
   }

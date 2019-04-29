@@ -30,9 +30,9 @@ var app = new Vue({
   }
 })
 
-ipcRenderer.on('data-update', (event, data) => {
-  console.log(data)
-  dataSet = data.map(e => {
+ipcRenderer.on('data-update', (event, payload) => {
+  console.log(payload)
+  dataSet = payload.map(e => {
     return { title: e.API_static_MainTitle, showTime: e.API_static_Showtime }
   })
   app.movieList = dataSet

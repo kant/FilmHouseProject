@@ -13,11 +13,11 @@ ol.movie-display {
 }
 
 .fade-enter-active {
-  transition: all 2s ease-in;
+  transition: all 700ms ease-in;
   color: white;
 }
 .fade-leave-active {
-  transition: all 2s ease-out;
+  transition: all 700ms ease-out;
   color: black;
 }
 

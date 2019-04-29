@@ -65,7 +65,7 @@ ipcMain.on('UpdateScreen2', (event, data) => {
       secondWindow = null
     })
   }
-  controler.SendDataToView(secondWindow, __dirbase + '/config/result.json')
+  controler.SendDataToView(secondWindow, __dirbase + '/config/result.json', data)
   controler.MonitorDataForView(secondWindow, __dirbase + '/config/result.json')
 })
 
