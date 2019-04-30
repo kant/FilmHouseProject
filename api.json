@@ -1,0 +1,23 @@
+{
+  "api_uri" : "http://cmi.connect.solutions/RESTfm/",
+  "database_name" : "Filmhouse%20CMP/",
+  "api_key" : "RFMkey=4H8SHEUYYIN38GQP092NGHE3784HSHE4LP185HJAL4KG",
+  "api_list" : [
+    {
+      "api_name" : "booking",
+      "id_layout" : "RFMsF3=k_UIDbookings&RFMsV3={id}&",
+      "layout" :  "layout/Bookings_API.json?RFMsF1=API_calc_FlagWebPublish&RFMsV1=1&RFMsF2=API_static_WebVenueID&RFMsV2=CON10000000R44754520&",
+      "data" : {
+        "fields": ["API_static_MainTitle", "API_static_LanguageText", "API_static_Cert", "API_static_Cast_Listing","API_static_Blurb"]
+      }
+    },
+    {
+      "api_name" : "slots",
+      "date_layout" : "RFMsF3=API_static_DateYMD&RFMsV3={date}&",
+      "layout" : "layout/Slots_API.json?RFMsF1=API_calc_FlagWebPublish&RFMsV1=1&RFMsF2=API_static_WebVenueID&RFMsV2=CON10000000R44754520&",
+      "data" : {
+        "fields": ["API_static_ParentBookingID", "API_static_DateYMD", "API_static_Showtime", "API_static_Location"]
+      }
+    }
+  ]
+}
