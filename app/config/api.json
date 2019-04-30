@@ -16,7 +16,7 @@
       "date_layout" : "RFMsF3=API_static_DateYMD&RFMsV3={date}&",
       "layout" : "layout/Slots_API.json?RFMsF1=API_calc_FlagWebPublish&RFMsV1=1&RFMsF2=API_static_WebVenueID&RFMsV2=CON10000000R44754520&",
       "data" : {
-        "fields": ["API_static_ParentBookingID", "API_static_DateYMD", "API_static_Showtime"]
+        "fields": ["API_static_ParentBookingID", "API_static_DateYMD", "API_static_Showtime", "API_static_Location"]
       }
     }
   ]

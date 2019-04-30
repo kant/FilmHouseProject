@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body class="image-background">
     <div id="app">
-      <div class="grid-container movie-display">
-        <movie-element v-for="movie in movieList" v-bind:movie="movie"></movie-element>        
+      <div class="grid-container movie-display image-background">
+        <movie-element v-for="movie in movieList" v-bind:movie="movie"></movie-element>
       </div>
     </div>
   </body>

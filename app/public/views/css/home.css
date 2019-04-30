@@ -1,4 +1,4 @@
-* {
+body > * {
   font-family: "Lato", sans-serif;
   padding: inherit;
   overflow-x: hidden;
@@ -6,12 +6,15 @@
   box-sizing: border-box;
 }
 
+body > {
+  display: inline-block;
+}
+
 .option-panel {
-  position: absolute;
-  top: 0;
+  position: absolute;  
   left: 26vw;
-  width: 50vw;
-  height: 10vh;
+  width: 50%;
+  height: 10%;
 }
 
 .option-panel input {
@@ -27,7 +30,7 @@
 
 .sidenav {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 25vw;
   margin: 0;
   padding: 0;
@@ -36,13 +39,13 @@
   background-color: #111;
 }
 
-.sidenav > a {
-  position: relative;
-  display: block;
+.sidenav > * {
+  top: 50%;
   color: white;
+  display: block;
+  position: relative;
   text-align: center;
   width: cover;
-  top: 50%;
   height: 10vh;
   background-color: red;
   margin: 4% 2%;
@@ -50,10 +53,10 @@
   font-size: 1.5em;
 }
 
-.sidenav > a:hover {
+.sidenav > *:hover {
   opacity: 0.7;
 }
 
-.sidenav > a:active {
+.sidenav > *:active {
   opacity: 0.4;
 }

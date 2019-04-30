@@ -1,33 +1,36 @@
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   background-color: black;
+  overflow-y: hidden;
+  box-sizing: border-box;
 }
 
 .movie-display {
-  color: white;
+color: white;
 }
 
 ol.movie-display {
-  padding: 0;
+padding: 0;
 }
 
 .fade-enter-active {
-  transition: all 700ms ease-in;
-  color: white;
+transition: all 700ms ease-in;
+color: white;
 }
 .fade-leave-active {
-  transition: all 700ms ease-out;
-  color: black;
+transition: all 700ms ease-out;
+color: black;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
+display: grid;
+grid-template-columns: 50% 50%;
 }
 
 .grid-container > div {
-  margin: 2vh 2vw 2vh 2vw;
+margin: 2vh 2vw 2vh 2vw;
 }
 
 .grid-element > * {
