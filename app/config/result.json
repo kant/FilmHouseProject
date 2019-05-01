@@ -1,20 +1,20 @@
 [
     {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-30",
+        "API_static_ParentBookingID": "BOO10026442R89564134",
+        "API_static_DateYMD": "2019-05-01",
         "API_static_Showtime": "13:00",
-        "API_static_Location": "FH2",
-        "API_static_MainTitle": "The Sisters Brothers",
-        "API_static_LanguageText": "",
+        "API_static_Location": "FH3",
+        "API_static_MainTitle": "Ash Is Purest White",
+        "API_static_LanguageText": "Chinese with English subtitles",
         "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
+        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
+        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
     },
     {
         "API_static_ParentBookingID": "BOO10026441R77144175",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "13:05",
-        "API_static_Location": "FH3",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "13:10",
+        "API_static_Location": "FH2",
         "API_static_MainTitle": "Styx",
         "API_static_LanguageText": "English and German with English subtitles",
         "API_static_Cert": "12A",
@@ -22,102 +22,69 @@
         "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
     },
     {
-        "API_static_ParentBookingID": "BOO10026442R89564134",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "14:30",
+        "API_static_ParentBookingID": "BOO10026437R20659198",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "14:00",
         "API_static_Location": "FH1",
-        "API_static_MainTitle": "Ash Is Purest White",
-        "API_static_LanguageText": "Chinese with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
-        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024916R56618659",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "15:15",
-        "API_static_Location": "FH3",
-        "API_static_MainTitle": "Blade Runner: The Final Cut",
+        "API_static_MainTitle": "Spartacus",
         "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Harrison Ford, Rutger Hauer, Sean Young, Daryl Hannah, Edward James Olmos, M Emmet Walsh",
-        "API_static_Blurb": "Adapted from Philip K Dick’s novel 'Do Androids Dream of Electric Sheep?', Ridley Scott’s iconic dystopian classic is unquestionably one of the greatest sci-fi films ever made. \nThe year is 2019, and LA is playing unwitting host to a group of escaped synthetic humans called replicants. \nBred for slavery on off-world colonies and outlawed on earth, these illegal immigrants are hunted by Blade Runners, and Rick Deckard (Harrison Ford) has the task of 'retiring' them. What follows is a visually stunning and thematically dense future noir that delves deep into what it means to be human."
+        "API_static_Cert": "PG",
+        "API_static_Cast_Listing": "Kirk Douglas, Laurence Olivier, Jean Simmons, Charles Laughton, Peter Ustinov",
+        "API_static_Blurb": "Although not a Kubrick project (he took over direction from Anthony Mann), this epic account of the abortive slave revolt in Ancient Rome emerges as a surprisingly apt companion piece to <i>Paths of Glory</i> in its consideration of the mechanisms of power. Kirk Douglas stars as a man born of a slave woman who has known nothing but chains his entire life. After being forced to put on a gladiator show for wealthy Romans (including Laurence Olivier as the power-hungry Crassus), Spartacus leads a slave revolt across Italy that soon has thousands marching on Rome."
     },
     {
         "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "15:40",
-        "API_static_Location": "FH2",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "16:10",
+        "API_static_Location": "FH3",
         "API_static_MainTitle": "Wild Rose",
         "API_static_LanguageText": "",
         "API_static_Cert": "15",
         "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
         "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026264R91260871",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "17:55",
-        "API_static_Location": "FH2",
-        "API_static_MainTitle": "In Times of Rain",
-        "API_static_LanguageText": "Spanish with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Angeles Cruz, Pedro Hernández, Baltimore Beltran, Harold Torres",
-        "API_static_Blurb": "The feature debut of Scottish-based director Itandehui Jansen, Tiempo De Lluvia weaves together the story of different generations of women from Mexico’s indigenous Mixtec community. \nTraditional healer Soledad is bringing up her grandson Jose in a small, rural village whilst her daughter tries to find work in Mexico City. When her daughter makes plans to marry, Soledad is faced with a difficult choice: should Jose stay with her, within a community and landscape he is growing to love, or should he join his mother in the city? <i>In Times of Rain</i> is a powerful story about women finding themselves caught between different experiences of life, on the sharp end of economic migration. \n"
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026340R75274452",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "18:00",
-        "API_static_Location": "FH3",
-        "API_static_MainTitle": "The Sisters Brothers",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
-        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026425R61163253",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "18:05",
-        "API_static_Location": "FH1",
-        "API_static_MainTitle": "Wild Rose",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
-        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
-    },
-    {
-        "API_static_ParentBookingID": "BOO10026442R89564134",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "20:20",
-        "API_static_Location": "FH1",
-        "API_static_MainTitle": "Ash Is Purest White",
-        "API_static_LanguageText": "Chinese with English subtitles",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Tao Zhao, Fan Liao, Xu Zheng",
-        "API_static_Blurb": "The year 2001. Upon falling for small-time gangster Bin (Fan Liao), quick-witted dancer Qiao (Tao Zhao) becomes embroiled in a war between rival street gangs. Pulling out a gun to protect her boyfriend and serving five years behind bars for the act, Qiao embarks on a journey to rekindle her relationship with Bin once more. Jia Zhangke's gloriously tragic drama is an arresting, complex gem - using this early 21st century story to echo the relentless tide of capitalism in China - and was nominated for the Palme d'Or at Cannes. "
-    },
-    {
-        "API_static_ParentBookingID": "BOO10024916R56618659",
-        "API_static_DateYMD": "2019-04-30",
-        "API_static_Showtime": "20:35",
-        "API_static_Location": "FH2",
-        "API_static_MainTitle": "Blade Runner: The Final Cut",
-        "API_static_LanguageText": "",
-        "API_static_Cert": "15",
-        "API_static_Cast_Listing": "Harrison Ford, Rutger Hauer, Sean Young, Daryl Hannah, Edward James Olmos, M Emmet Walsh",
-        "API_static_Blurb": "Adapted from Philip K Dick’s novel 'Do Androids Dream of Electric Sheep?', Ridley Scott’s iconic dystopian classic is unquestionably one of the greatest sci-fi films ever made. \nThe year is 2019, and LA is playing unwitting host to a group of escaped synthetic humans called replicants. \nBred for slavery on off-world colonies and outlawed on earth, these illegal immigrants are hunted by Blade Runners, and Rick Deckard (Harrison Ford) has the task of 'retiring' them. What follows is a visually stunning and thematically dense future noir that delves deep into what it means to be human."
     },
     {
         "API_static_ParentBookingID": "BOO10026441R77144175",
-        "API_static_DateYMD": "2019-04-30",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "18:00",
+        "API_static_Location": "FH2",
+        "API_static_MainTitle": "Styx",
+        "API_static_LanguageText": "English and German with English subtitles",
+        "API_static_Cert": "12A",
+        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
+        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026425R61163253",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "18:25",
+        "API_static_Location": "FH3",
+        "API_static_MainTitle": "Wild Rose",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Jessie Buckley, Julie Walters, Sophie Okonedo, Craig Parkinson, Jamie Sives",
+        "API_static_Blurb": "Rose-Lynn Harlan (Jessie Buckley) is bursting with raw talent, charisma and cheek. Fresh out of jail and with two young kids, all she wants is to get out of Glasgow and make it as a country singer. Her mum Marion has had a bellyful of Rose-Lynn’s Nashville nonsense. Forced to take responsibility, Rose-Lynn gets a cleaning job, only to find an unlikely champion in the middle-class lady of the house. A comedy-drama about mothers and daughters, dreams and reality and three chords and the truth."
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026265R61043698",
+        "API_static_DateYMD": "2019-05-01",
+        "API_static_Showtime": "20:30",
+        "API_static_Location": "FH2",
+        "API_static_MainTitle": "To Sleep with Anger",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Danny Glover, Paul Butler, DeVaughn Nixon, Mary Alice, Reina King",
+        "API_static_Blurb": "Described by Slant as a “neglected masterpiece of African-American cinema”, <i>To Sleep With Anger</i> is a powerful mix of the mundane and the magical from one of America’s most underappreciated independent filmmakers. Gideon and Suzie are initially happy to see their mysterious old friend Harry (Danny Glover) when he turns up on their doorstep unannounced. They soon regret their offer of hospitality, however, when Harry’s arrival begins to exercise a strange, almost supernatural presence in the house. What exactly has Harry brought into the house with him, and will Suzie’s family survive it intact? \n"
+    },
+    {
+        "API_static_ParentBookingID": "BOO10026340R75274452",
+        "API_static_DateYMD": "2019-05-01",
         "API_static_Showtime": "20:40",
         "API_static_Location": "FH3",
-        "API_static_MainTitle": "Styx",
-        "API_static_LanguageText": "English and German with English subtitles",
-        "API_static_Cert": "12A",
-        "API_static_Cast_Listing": "Susanne Wolff, Gedion Oduor Wekesa",
-        "API_static_Blurb": "Emergency doctor Rieke (Susanne Wolff) departs the port of Gibraltar and sets course for the idyllic and secluded Ascension Island. En route, she soon encounters a critically damaged boat carrying refugees in desperate need of rescue. Instructed by authorities to hold course and leave them adrift, she's faced with the ultimate human dilemma - risk punishment by helping or be burdened with the guilt of ignoring their plight. Wolfgang Fischer's timely moral thriller is one of the most focused and compassionate cinematic depictions of the refugee crisis, winning three awards at Berlin in 2018."
+        "API_static_MainTitle": "The Sisters Brothers",
+        "API_static_LanguageText": "",
+        "API_static_Cert": "15",
+        "API_static_Cast_Listing": "Joaquin Phoenix, John C. Reilly, Riz Ahmed, Jake Gyllenhaal, Carol Kane",
+        "API_static_Blurb": "In 1850s Oregon, Charlie and Eli Sisters (Joaquin Phoenix, John C. Reilly) are brothers who share the same profession - assassination. Calloused to the hostility of the world after years of killing, the pair set off on an epic journey through the Northwest, which will test their brotherhood and also perhaps unearth the last remnants of their humanity. Based on Patrick deWitt's darkly comedic western novel, <i>The Sisters Brothers</i> is the English-language debut of acclaimed French director Jacques Audiard (<i>Rust and Bone</i>, <i>Dheepan</i>) and also stars Riz Ahmed and Jake Gyllenhaal, with cameos from Rutger Hauer and Carol Kane."
     }
 ]

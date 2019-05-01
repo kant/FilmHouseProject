@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body class="image-background">
+  <body>
+    <img  class="image-background" src="./assets/sidenav.png"></img>
     <div id="app">
-      <div class="grid-container movie-display image-background">
+      <div class="grid-container movie-display">
         <movie-element v-for="movie in movieList" v-bind:movie="movie"></movie-element>
       </div>
     </div>

@@ -7,32 +7,35 @@ body {
   box-sizing: border-box;
 }
 
-.movie-display {
-color: white;
-}
-
-ol.movie-display {
-padding: 0;
-}
-
 .fade-enter-active {
-transition: all 700ms ease-in;
-color: white;
+  transition: all 700ms ease-in;
+  color: white;
 }
 .fade-leave-active {
 transition: all 700ms ease-out;
 color: black;
 }
 
-.grid-container {
-display: grid;
-grid-template-columns: 50% 50%;
+.grid-container {  
+  color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .grid-container > div {
-margin: 2vh 2vw 2vh 2vw;
+  margin: 2vh 2vw 2vh 2vw;
 }
 
 .grid-element > * {
   display: block;
+}
+
+.image-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("assets/tamère.png") repeat 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
 }
