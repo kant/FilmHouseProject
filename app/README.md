@@ -19,7 +19,7 @@ npm install
 Which going to read all the necessary dependencies register inside package.json and download them in order to launch the app.
 
 ## Folders logic
-- The **public** folder is made to hold all the public ressources accessible by our user, such as front-end JavaScript, html, css, etc...
+- The **public** folder is made to hold all the public resources accessible by our user, such as front-end JavaScript, html, css, etc...
 - The **source** folder is made to hold all the back-end logic part, such as main.js the start point and all the module we might create.
 - The **config** folder is made to hold the configuration files.
 - The **node_modules** folder is where all the node module are stored if localy stored.
